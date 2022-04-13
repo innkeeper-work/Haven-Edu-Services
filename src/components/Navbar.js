@@ -1,34 +1,76 @@
-import Navbar from "react-bootstrap/Navbar";
-import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
+// External import
+import React from "react";
+
+// Components
+import { FacebookIcon } from "../components/Icons";
+import { InstagramIcon } from "../components/Icons";
+import { LinkedInIcon } from "../components/Icons";
+
+// Images
 import havenfavico from "../images/havenfavico.png";
 
 export const NavbarSection = () => {
   return (
-    <Navbar bg="light" expand="lg" fixed="top">
-      <Container fluid>
-        <Navbar.Brand href="#">
-          {" "}
+    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <div className="container-fluid">
+        <a class="navbar-brand" href="#">
           <img
             src={havenfavico}
-            width="30"
-            height="30"
-            className="d-inline-block align-top"
             alt=""
+            width="30"
+            height="24"
+            class="d-inline-block align-text-top"
           />
-        </Navbar.Brand>
-        <Navbar.Toggle />
-        <Navbar.Collapse>
-          <Nav className="me-auto my-2 my-lg-0">
-            <Nav.Link href="#action1">Home</Nav.Link>
-            <Nav.Link href="#action2">About</Nav.Link>
-            <Nav.Link href="#action2">Games</Nav.Link>
-            <Nav.Link href="#action2">Gallery</Nav.Link>
-            <Nav.Link href="#action2">Blog</Nav.Link>
-            <Nav.Link href="#action2">Contact</Nav.Link>
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
+        </a>
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span className="navbar-toggler-icon"></span>
+        </button>
+        <div
+          className="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul className="navbar-nav">
+            <li className="nav-item mx-2">
+              <a className="nav-link active" aria-current="page" href="#">
+                Home
+              </a>
+            </li>
+            <li className="nav-item mx-2">
+              <a className="nav-link" href="#">
+                About
+              </a>
+            </li>
+            <li className="nav-item mx-2">
+              <a className="nav-link" href="#">
+                Gallery
+              </a>
+            </li>
+            <li className="nav-item mx-2">
+              <a className="nav-link">Blog</a>
+            </li>
+            <li className="nav-item mx-2">
+              <a className="nav-link">Contact</a>
+            </li>
+          </ul>
+          <a href="" className="mx-2">
+            <FacebookIcon />
+          </a>
+          <a href="" className="mx-2">
+            <InstagramIcon />
+          </a>
+          <a href="" className="mx-2">
+            <LinkedInIcon />
+          </a>
+        </div>
+      </div>
+    </nav>
   );
 };

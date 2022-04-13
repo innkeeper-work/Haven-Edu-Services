@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import Homepage from "./pages/Homepage";
-import Footer from "./components/Footer";
-import "bootstrap/dist/css/bootstrap.min.css";
+
+// import Footer from "./components/Footer";
 // import "./App.css";
 
 function App() {
@@ -10,9 +10,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Homepage />} />
       </Routes>
-      <footer>
+      {/* <footer>
         <Footer />
-      </footer>
+      </footer> */}
     </div>
   );
 }
