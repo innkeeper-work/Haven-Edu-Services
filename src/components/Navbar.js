@@ -50,6 +50,11 @@ export const NavbarSection = () => {
             </li>
             <li className="nav-item mx-2">
               <a className="nav-link" href="#">
+                Games
+              </a>
+            </li>
+            <li className="nav-item mx-2">
+              <a className="nav-link" href="#">
                 Gallery
               </a>
             </li>
