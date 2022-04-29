@@ -3,7 +3,7 @@ import styled from "styled-components";
 //Images
 import herobg from "../../images/herobg.png";
 import summer from "../../images/summer.png";
-import summerimage from "../../images/summerimage.png";
+import summercamp from "../../images/summercamp.png";
 
 // export const Contain = styled.div`
 //   background-size: contain;
@@ -42,7 +42,7 @@ export const GamesSectionButton = styled.div`
 `;
 export const SummerCamp = styled.div`
   // background-size: contain;
-  background: url(${summerimage});
+  background: url(${summercamp});
   height: 50vh;
 `;
 export const StatSection = styled.div`
