@@ -29,7 +29,7 @@ const About = () => {
 
 const AboutSection = () => {
   return (
-    <div class="container py-5">
+    <div className="container py-5">
       {" "}
       <AboutCard className="card mb-3">
         <div className="row g-0">
@@ -56,20 +56,20 @@ const AboutSection = () => {
 const Vision = () => {
   return (
     <VisionSection className="">
-      <div class="row g-0 mx-5">
-        <div class="col-sm-6">
-          <div class="card-body py-5">
-            <h5 class="card-title">Vision</h5>
-            <p class="card-text">
+      <div className="row g-0 mx-5">
+        <div className="col-sm-6">
+          <div className="card-body py-5">
+            <h5 className="card-title">Vision</h5>
+            <p className="card-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris.
             </p>
           </div>
         </div>
-        <div class="col-sm-6">
-          <div class="card-body py-5">
-            <h5 class="card-title">Mission</h5>
+        <div className="col-sm-6">
+          <div className="card-body py-5">
+            <h5 className="card-title">Mission</h5>
             <p className="card-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -93,7 +93,7 @@ const Team = () => {
             <div className="card mb-5">
               <div>
                 {" "}
-                <img src={femi} class="card-img-top p-3" alt="..." />
+                <img src={femi} className="card-img-top p-3" alt="..." />
               </div>
 
               <div className="card-body">
@@ -106,7 +106,7 @@ const Team = () => {
           <div className="col-lg-4 col-md-4 col-sm-12">
             {" "}
             <div className="card mb-5">
-              <img src={olamide} class="card-img-top p-3" alt="..." />
+              <img src={olamide} className="card-img-top p-3" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">Olamide Ogunbanjo</h5>
                 <p className="card-text">Lead Language Instructor</p>
@@ -116,7 +116,7 @@ const Team = () => {
           <div className="col-lg-4 col-md-4 col-sm-12">
             {" "}
             <div className="card mb-5">
-              <img src={madamewunmi} class="card-img-top p-3" alt="..." />
+              <img src={madamewunmi} className="card-img-top p-3" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">Omowunmi Obidairo</h5>
                 <p className="card-text">Lead Instructor/Co-Founder</p>

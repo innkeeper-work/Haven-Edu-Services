@@ -57,7 +57,7 @@ const GamesSection2 = () => {
               </p>
               <a
                 href="#"
-                class="btn"
+                className="btn"
                 style={{ backgroundColor: "#724598", color: "#ffffff" }}
               >
                 Play Now
@@ -81,7 +81,7 @@ const GamesSection2 = () => {
               </p>
               <a
                 href="#"
-                class="btn"
+                className="btn"
                 style={{ backgroundColor: "#724598", color: "#ffffff" }}
               >
                 Play Now
@@ -105,7 +105,7 @@ const GamesSection2 = () => {
               </p>
               <a
                 href="#"
-                class="btn"
+                className="btn"
                 style={{ backgroundColor: "#724598", color: "#ffffff" }}
               >
                 Play Now

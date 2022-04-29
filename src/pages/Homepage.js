@@ -45,7 +45,7 @@ const HomeSectionOne = () => {
       <div className="row">
         <div className="col-lg-4 col-md-4 col-sm-12">
           <CardOneBg className="card mb-5">
-            <img src={robotics} class="card-img-top" alt="..." />
+            <img src={robotics} className="card-img-top" alt="..." />
             <div className="card-body">
               <h5 className="card-title text-center">Robotics</h5>
             </div>
@@ -125,10 +125,10 @@ const SummerCampSection = () => {
           </p>
           <a
             href="#"
-            class="btn"
+            className="btn"
             style={{ backgroundColor: "#724598", color: "#ffffff" }}
           >
-            View Ca
+            View Calendar
           </a>
         </div>
       </SummerCamp>
@@ -151,7 +151,7 @@ const SummerCampSection = () => {
           </p>
           <a
             href="#"
-            class="btn"
+            className="btn"
             style={{ backgroundColor: "#724598", color: "#ffffff" }}
           >
             Call to Action

@@ -109,7 +109,7 @@ export const Blog = () => {
           <div className="col-lg-4 col-md-4 col-sm-12 ">
             {" "}
             <BlogCard className="card mb-5">
-              <img src={blog1} class="card-img-top" alt="..." />
+              <img src={blog1} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">Card title</h5>
                 <p className="card-text">
@@ -117,7 +117,7 @@ export const Blog = () => {
                   lead-in to additional content. This content is a little bit
                   longer.
                 </p>
-                <a href="#" class="d-flex justify-content-end">
+                <a href="#" className="d-flex justify-content-end">
                   Read More
                 </a>
               </div>
@@ -127,7 +127,7 @@ export const Blog = () => {
           <div className="col-lg-4 col-md-4 col-sm-12">
             {" "}
             <BlogCard className="card mb-5">
-              <img src={blog2} class="card-img-top" alt="..." />
+              <img src={blog2} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">Card title</h5>
                 <p className="card-text">
@@ -135,7 +135,7 @@ export const Blog = () => {
                   lead-in to additional content. This content is a little bit
                   longer.
                 </p>
-                <a href="#" class="d-flex justify-content-end">
+                <a href="#" className="d-flex justify-content-end">
                   Read More
                 </a>
               </div>
@@ -144,7 +144,7 @@ export const Blog = () => {
           <div className="col-lg-4 col-md-4 col-sm-12">
             {" "}
             <BlogCard className="card mb-5">
-              <img src={blog3} class="card-img-top" alt="..." />
+              <img src={blog3} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">Card title</h5>
                 <p className="card-text">
@@ -152,7 +152,7 @@ export const Blog = () => {
                   lead-in to additional content. This content is a little bit
                   longer.
                 </p>
-                <a href="#" class="d-flex justify-content-end">
+                <a href="#" className="d-flex justify-content-end">
                   Read More
                 </a>
               </div>
@@ -171,7 +171,7 @@ export const GallerySection = (props) => {
         {" "}
         <div className="row g-0">
           <CardOneBg className="card">
-            <img src={img} class="card-img-top" alt="..." />
+            <img src={img} className="card-img-top" alt="..." />
           </CardOneBg>
         </div>
       </div>

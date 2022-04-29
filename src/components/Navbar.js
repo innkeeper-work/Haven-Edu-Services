@@ -20,7 +20,7 @@ export const NavbarSection = () => {
             alt=""
             width="30"
             height="24"
-            class="d-inline-block align-text-top"
+            className="d-inline-block align-text-top"
           />
         </a>
         <button
