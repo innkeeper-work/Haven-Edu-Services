@@ -1,11 +1,11 @@
 //Components
 import { TestimonialCont } from "../components/styles/stylcomponents";
 import { TestimonialCard } from "../components/styles/stylcomponents";
+import { BlogCard } from "../components/styles/stylcomponents";
 import { CardOneBg } from "../components/styles/stylcomponents";
 import { CardOneText } from "../components/styles/stylcomponents";
 
 //Images
-import madamewunmi from "../images/madamewunmi.jpeg";
 import femi from "../images/femi.jpeg";
 import games5 from "../images/games5.jpg";
 import robotics from "../images/robotics.jpg";
@@ -15,7 +15,7 @@ import coding from "../images/coding.jpg";
 export const Testimonials = () => {
   return (
     <>
-      <div className="container">
+      <div className="container py-5">
         <TestimonialCont className="row bg-light my-5 justify-content-center">
           <h4 className="text-center my-4">Testimonials</h4>
           <div className="col-lg-5 col-md-6 col-12 mb-3">
@@ -103,9 +103,9 @@ export const Blog = () => {
             ></hr> */}
           </div>
 
-          <div className="col-lg-4 col-md-4 col-sm-12">
+          <div className="col-lg-4 col-md-4 col-sm-12 ">
             {" "}
-            <div className="card">
+            <BlogCard className="card mb-5">
               <img src={games5} class="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">Card title</h5>
@@ -114,16 +114,16 @@ export const Blog = () => {
                   lead-in to additional content. This content is a little bit
                   longer.
                 </p>
-                <a href="#" class="btn btn-dark">
+                <a href="#" class="d-flex justify-content-end">
                   Read More
                 </a>
               </div>
-            </div>
+            </BlogCard>
           </div>
 
           <div className="col-lg-4 col-md-4 col-sm-12">
             {" "}
-            <div className="card">
+            <BlogCard className="card mb-5">
               <img src={games5} class="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">Card title</h5>
@@ -132,15 +132,15 @@ export const Blog = () => {
                   lead-in to additional content. This content is a little bit
                   longer.
                 </p>
-                <a href="#" class="btn btn-dark">
+                <a href="#" class="d-flex justify-content-end">
                   Read More
                 </a>
               </div>
-            </div>
+            </BlogCard>
           </div>
           <div className="col-lg-4 col-md-4 col-sm-12">
             {" "}
-            <div className="card">
+            <BlogCard className="card mb-5">
               <img src={games5} class="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">Card title</h5>
@@ -149,21 +149,29 @@ export const Blog = () => {
                   lead-in to additional content. This content is a little bit
                   longer.
                 </p>
-                <a href="#" class="btn btn-dark">
+                <a href="#" class="d-flex justify-content-end">
                   Read More
                 </a>
               </div>
-            </div>
+            </BlogCard>
           </div>
         </div>
       </div>
     </>
   );
 };
-// export const Team = () => {
-//   return (
-//     <>
-
-//     </>
-//   );
-// };
+export const GallerySection = (props) => {
+  const { img } = props;
+  return (
+    <>
+      <div className="container py-5">
+        {" "}
+        <div className="row g-0">
+          <CardOneBg className="card">
+            <img src={img} class="card-img-top" alt="..." />
+          </CardOneBg>
+        </div>
+      </div>
+    </>
+  );
+};

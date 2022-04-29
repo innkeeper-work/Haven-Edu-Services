@@ -1,5 +1,6 @@
 // External import
 import React from "react";
+import { Link } from "react-router-dom";
 
 // Components
 import { FacebookIcon } from "../components/Icons";
@@ -13,7 +14,7 @@ export const NavbarSection = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container-fluid">
-        <a class="navbar-brand" href="#">
+        <a className="navbar-brand" href="#">
           <img
             src={havenfavico}
             alt=""
@@ -38,42 +39,54 @@ export const NavbarSection = () => {
           id="navbarNav"
         >
           <ul className="navbar-nav">
-            <li className="nav-item mx-2">
-              <a className="nav-link active" aria-current="page" href="#">
+            <li className="nav-item mx-3">
+              <Link to="/" className="nav-link active" aria-current="page">
                 Home
-              </a>
+              </Link>
             </li>
-            <li className="nav-item mx-2">
-              <a className="nav-link" href="#">
+            <li className="nav-item mx-3">
+              <Link to="/about" className="nav-link">
                 About
-              </a>
+              </Link>
             </li>
-            <li className="nav-item mx-2">
-              <a className="nav-link" href="#">
+            <li className="nav-item mx-3">
+              <Link to="/games" className="nav-link">
                 Games
-              </a>
+              </Link>
             </li>
-            <li className="nav-item mx-2">
-              <a className="nav-link" href="#">
+            <li className="nav-item mx-3">
+              <Link to="/gallery" className="nav-link">
                 Gallery
-              </a>
+              </Link>
             </li>
-            <li className="nav-item mx-2">
-              <a className="nav-link">Blog</a>
+            <li className="nav-item mx-3">
+              <Link to="/blog" className="nav-link">
+                Blog
+              </Link>
             </li>
-            <li className="nav-item mx-2">
-              <a className="nav-link">Contact</a>
+            <li className="nav-item mx-3">
+              <Link to="/contact" className="nav-link">
+                Contact
+              </Link>
             </li>
           </ul>
-          <a href="" className="mx-2">
+          <Link
+            to="https://m.facebook.com/haveneduservices/"
+            className="mx-2"
+            style={{ color: "#000" }}
+          >
             <FacebookIcon />
-          </a>
-          <a href="" className="mx-2">
+          </Link>
+          <Link
+            to="https://instagram.com/haveneduservices?igshid=1fyt565z18d4u"
+            className="mx-2"
+            style={{ color: "#000" }}
+          >
             <InstagramIcon />
-          </a>
-          <a href="" className="mx-2">
+          </Link>
+          <Link to="/about" className="mx-2" style={{ color: "#000" }}>
             <LinkedInIcon />
-          </a>
+          </Link>
         </div>
       </div>
     </nav>

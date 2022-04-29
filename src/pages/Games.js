@@ -1,6 +1,8 @@
 //Components
 import { NavbarSection } from "../components/Navbar";
+import { HeroSection } from "../components/Hero";
 import { GamesSection2Bg } from "../components/styles/stylcomponents";
+import Footer from "../components/Footer";
 
 //Images
 import games5 from "../images/games5.jpg";
@@ -9,8 +11,10 @@ const Games = () => {
   return (
     <>
       <NavbarSection />
+      <HeroSection />
       <GamesSection1 />
       <GamesSection2 />
+      <Footer />
     </>
   );
 };
@@ -51,8 +55,12 @@ const GamesSection2 = () => {
                 lead-in to additional content. This content is a little bit
                 longer.
               </p>
-              <a href="#" class="btn btn-primary">
-                Read More
+              <a
+                href="#"
+                class="btn"
+                style={{ backgroundColor: "#724598", color: "#ffffff" }}
+              >
+                Play Now
               </a>
             </div>
           </div>
@@ -71,8 +79,12 @@ const GamesSection2 = () => {
                 lead-in to additional content. This content is a little bit
                 longer.
               </p>
-              <a href="#" class="btn btn-primary">
-                Read More
+              <a
+                href="#"
+                class="btn"
+                style={{ backgroundColor: "#724598", color: "#ffffff" }}
+              >
+                Play Now
               </a>
             </div>
           </div>
@@ -91,8 +103,12 @@ const GamesSection2 = () => {
                 lead-in to additional content. This content is a little bit
                 longer.
               </p>
-              <a href="#" class="btn btn-primary">
-                Read More
+              <a
+                href="#"
+                class="btn"
+                style={{ backgroundColor: "#724598", color: "#ffffff" }}
+              >
+                Play Now
               </a>
             </div>
           </div>
