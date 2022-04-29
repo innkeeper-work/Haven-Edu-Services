@@ -3,6 +3,7 @@ import styled from "styled-components";
 //Images
 import herobg from "../../images/herobg.png";
 import summer from "../../images/summer.png";
+import summerimage from "../../images/summerimage.png";
 
 // export const Contain = styled.div`
 //   background-size: contain;
@@ -32,7 +33,7 @@ export const SectionTwoCardBg = styled.div`
   background-color: #ddd3e9;
 `;
 export const Container = styled.div`
-  width: 25rem;
+  width: 30rem;
 `;
 export const GamesSectionButton = styled.div`
   position: absolute;
@@ -41,7 +42,7 @@ export const GamesSectionButton = styled.div`
 `;
 export const SummerCamp = styled.div`
   // background-size: contain;
-  background: url(${summer});
+  background: url(${summerimage});
   height: 50vh;
 `;
 export const StatSection = styled.div`

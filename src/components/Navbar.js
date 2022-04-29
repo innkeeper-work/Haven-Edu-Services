@@ -13,7 +13,7 @@ import havenfavico from "../images/havenfavico.png";
 export const NavbarSection = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <div className="container-fluid">
+      <div className="container">
         <a className="navbar-brand" href="#">
           <img
             src={havenfavico}

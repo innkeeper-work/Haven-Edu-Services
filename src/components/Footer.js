@@ -15,7 +15,7 @@ const Footer = () => {
       >
         <footer className="py-5">
           <div className="row px-5">
-            <div className="col-5">
+            <div className="col-lg-3 col-md-3">
               <h5>About</h5>
               <p>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio,
@@ -24,8 +24,8 @@ const Footer = () => {
               </p>
             </div>
 
-            <div className="col-2">
-              <h5>Menu</h5>
+            <div className="col-lg-2 col-md-2">
+              {/* <h5>Menu</h5> */}
               <ul className="nav flex-column">
                 <li className="nav-item mb-2 ">
                   <Link
@@ -46,6 +46,11 @@ const Footer = () => {
                     Games
                   </Link>
                 </li>
+              </ul>
+            </div>
+            <div className="col-lg-2 col-md-2">
+              {/* <h5>Menu</h5> */}
+              <ul className="nav flex-column">
                 <li className="nav-item mb-2">
                   <Link to="/gallery" className="nav-link text-white">
                     Gallery
@@ -64,7 +69,7 @@ const Footer = () => {
               </ul>
             </div>
 
-            <div className="col-5">
+            <div className="col-lg-5 col-md-5">
               <h5>Address</h5>
               <p>
                 8th Gear Hub, 11b Colin Onabule Crescent, Diamond Estate, Off

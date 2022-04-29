@@ -40,7 +40,7 @@ const GamesSection1 = () => {
 
 const GamesSection2 = () => {
   return (
-    <GamesSection2Bg className="container">
+    <GamesSection2Bg className="container mb-5">
       {" "}
       <div className="card mb-3">
         <div className="row g-0">

@@ -77,13 +77,15 @@ const RequestforBooking = () => {
     <SectionTwoCardBg className="text-center my-2">
       <div className="card-body d-flex justify-content-center">
         <Container className="bg-light rounded d-flex justify-content-center py-2">
-          <p className="card-text mx-3 my-auto">Request for Booking</p>
+          <p className="card-text mx-3 my-auto">
+            <b>Request for Booking</b> (For Schools only)
+          </p>
           <a
             href="#"
-            className="btn mx-3"
+            className="btn mx-3 w-50"
             style={{ backgroundColor: "#724598", color: "#ffffff" }}
           >
-            Call to Action
+            Send Request
           </a>
         </Container>
       </div>
@@ -106,43 +108,57 @@ const RequestforBooking = () => {
 
 const SummerCampSection = () => {
   return (
-    <SummerCamp className="my-5 pt-4">
-      <div className="card-body col-lg-6 ms-lg-5">
-        <h5 className="card-title">Summer Camp</h5>
-        <p className="card-text">
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content. Some quick example text to build on the
-          card title and make up the bulk of the card's content. Some quick
-          example text to build on the card title and make up the bulk of the
-          card's content. Some quick example text to build on the card title and
-          make up the bulk of the card's content. Some quick example text to
-          build on the card title and make up the bulk of the card's content.
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </p>
-        <a
-          href="#"
-          class="btn"
-          style={{ backgroundColor: "#724598", color: "#ffffff" }}
-        >
-          Call to Action
-        </a>
-      </div>
-
-      {/* <div className="card mb-5">
-        <img src={robotics} class="card-img-top" alt="..." />
-        <div className="card-body">
-          <h5 className="card-title">Card title</h5>
+    <>
+      <SummerCamp className="my-5 pt-4 d-none d-sm-none d-md-none d-lg-block d-xl-block d-xxl-block">
+        <div className="card-body col-lg-6 ms-lg-5">
+          <h5 className="card-title">Summer Camp</h5>
           <p className="card-text">
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This content is a little bit longer.
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content. Some quick example text to build on the
+            card title and make up the bulk of the card's content. Some quick
+            example text to build on the card title and make up the bulk of the
+            card's content. Some quick example text to build on the card title
+            and make up the bulk of the card's content. Some quick example text
+            to build on the card title and make up the bulk of the card's
+            content. Some quick example text to build on the card title and make
+            up the bulk of the card's content.
           </p>
-          <a href="#" class="d-flex justify-content-end">
-            Read More
+          <a
+            href="#"
+            class="btn"
+            style={{ backgroundColor: "#724598", color: "#ffffff" }}
+          >
+            View Ca
           </a>
         </div>
-      </div> */}
-    </SummerCamp>
+      </SummerCamp>
+      <div
+        className="my-5 pt-4 d-block d-sm-block d-md-block d-lg-none d-xl-none d-xxl-none"
+        style={{ backgroundColor: "#F1BFE2", color: "#000000" }}
+      >
+        <div className="card-body col-lg-6 ms-lg-5">
+          <h5 className="card-title">Summer Camp</h5>
+          <p className="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content. Some quick example text to build on the
+            card title and make up the bulk of the card's content. Some quick
+            example text to build on the card title and make up the bulk of the
+            card's content. Some quick example text to build on the card title
+            and make up the bulk of the card's content. Some quick example text
+            to build on the card title and make up the bulk of the card's
+            content. Some quick example text to build on the card title and make
+            up the bulk of the card's content.
+          </p>
+          <a
+            href="#"
+            class="btn"
+            style={{ backgroundColor: "#724598", color: "#ffffff" }}
+          >
+            Call to Action
+          </a>
+        </div>
+      </div>
+    </>
   );
 };
 

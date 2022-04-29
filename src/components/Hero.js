@@ -9,9 +9,9 @@ export const HeroSection = () => {
     <>
       <HeroBg class="container">
         <div class="row align-items-center g-0">
-          <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="col-lg-6 col-md-6 col-sm-12 p-5">
             {/* <h1 class="lh-1 mb-3">Responsive left-aligned hero with image</h1> */}
-            <h2 class="lh-3 mb-3">
+            <h2 class="lh-5 mb-3 mt-md-5 mt-sm-5 mt-xs-5">
               Exciting Young Champs towards Digital Tech and Foreign Languages
             </h2>
 
@@ -22,17 +22,17 @@ export const HeroSection = () => {
                 class="btn"
                 style={{ backgroundColor: "#724598", color: "#ffffff" }}
               >
-                Call to action
+                Register Now
               </button>
             </div>
           </div>
           <div class="col-lg-6 col-md-6 col-sm-12">
             <img
               src={kid1}
-              class="d-block mx-lg-auto img-fluid"
+              class="mx-lg-auto img-fluid"
               alt=""
-              width="700"
-              height="500"
+              // width="700"
+              // height="500"
             />
           </div>
         </div>
