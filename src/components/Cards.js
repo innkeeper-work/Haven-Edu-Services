@@ -6,9 +6,8 @@ import { CardOneBg } from "../components/styles/stylcomponents";
 
 //Images
 import femi from "../images/femi.jpeg";
-// import blog1 from "../images/blog1.jpg";
-import blog2 from "../images/blog2.jpg";
-import blog3 from "../images/blog3.jpg";
+import games5 from "../images/games5.jpg";
+import games6 from "../images/games6.jpg";
 
 export const Testimonials = () => {
   return (
@@ -92,7 +91,7 @@ export const Blog = () => {
   return (
     <>
       <div className="container">
-        <div className="row">
+        <div className="row justify-content-center">
           <div>
             <h4 className="text-center my-4">Latest News</h4>
             {/* <hr
@@ -101,10 +100,10 @@ export const Blog = () => {
             ></hr> */}
           </div>
 
-          <div className="col-lg-4 col-md-4 col-sm-12 ">
+          <div className="col-lg-4 col-md-4 col-sm-10 ">
             {" "}
             <BlogCard className="card mb-5">
-              <img src={blog2} className="card-img-top" alt="..." />
+              <img src={games6} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">Card title</h5>
                 <p className="card-text">
@@ -119,10 +118,10 @@ export const Blog = () => {
             </BlogCard>
           </div>
 
-          <div className="col-lg-4 col-md-4 col-sm-12">
+          <div className="col-lg-4 col-md-4 col-sm-10">
             {" "}
             <BlogCard className="card mb-5">
-              <img src={blog2} className="card-img-top" alt="..." />
+              <img src={games5} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">Card title</h5>
                 <p className="card-text">
@@ -136,10 +135,10 @@ export const Blog = () => {
               </div>
             </BlogCard>
           </div>
-          <div className="col-lg-4 col-md-4 col-sm-12">
+          <div className="col-lg-4 col-md-4 col-sm-10">
             {" "}
             <BlogCard className="card mb-5">
-              <img src={blog3} className="card-img-top" alt="..." />
+              <img src={games5} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">Card title</h5>
                 <p className="card-text">

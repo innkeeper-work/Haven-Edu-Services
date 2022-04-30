@@ -7,7 +7,7 @@ export const HeroSection = () => {
     <>
       <HeroBg className="container-fluid py-4">
         <div className="row align-items-center g-0">
-          <div className="col-lg-6 col-md-7 col-sm-12 px-5 py-lg-5">
+          <div className="col-lg-6 col-md-7 col-sm-12 px-3 py-lg-5">
             {/* <h1 class="lh-1 mb-3">Responsive left-aligned hero with image</h1> */}
             <h2 className="lh-5 mb-3 mt-5 d-none d-sm-none d-md-none d-lg-block d-xl-block d-xxl-block">
               Exciting Young Champs towards Digital Tech and Foreign Languages
