@@ -1,17 +1,13 @@
 //Components
 import { NavbarSection } from "../components/Navbar";
 import { HeroSection } from "../components/Hero";
-// import { OurPartners } from "../components/OurPartners";
 import { CardOneBg } from "../components/styles/stylcomponents";
-import { CardOneText } from "../components/styles/stylcomponents";
 import { SectionTwoCardBg } from "../components/styles/stylcomponents";
 import { Container } from "../components/styles/stylcomponents";
 import { SummerCamp } from "../components/styles/stylcomponents";
-// import { GamesSectionButton } from "../components/styles/stylcomponents";
 import { StatSection } from "../components/styles/stylcomponents";
 import { Testimonials } from "../components/Cards";
 import { Blog } from "../components/Cards";
-// import { SectionTwoRowBg } from "../components/styles/stylcomponents";
 import Footer from "../components/Footer";
 
 // Images
