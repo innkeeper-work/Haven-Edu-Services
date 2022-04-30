@@ -86,9 +86,9 @@ const Team = () => {
   return (
     <>
       <div className="container">
-        <div className="row">
+        <div className="row justify-content-center">
           <h4 className="text-center my-5">Team</h4>
-          <div className="col-lg-4 col-md-4 col-sm-12">
+          <div className="col-lg-4 col-md-4 col-sm-10">
             {" "}
             <div className="card mb-5">
               <div>
@@ -103,7 +103,7 @@ const Team = () => {
             </div>
           </div>
 
-          <div className="col-lg-4 col-md-4 col-sm-12">
+          <div className="col-lg-4 col-md-4 col-sm-10">
             {" "}
             <div className="card mb-5">
               <img src={olamide} className="card-img-top p-3" alt="..." />
@@ -113,7 +113,7 @@ const Team = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-4 col-md-4 col-sm-12">
+          <div className="col-lg-4 col-md-4 col-sm-10">
             {" "}
             <div className="card mb-5">
               <img src={madamewunmi} className="card-img-top p-3" alt="..." />

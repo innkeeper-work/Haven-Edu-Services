@@ -38,8 +38,8 @@ const Home = () => {
 const HomeSectionOne = () => {
   return (
     <div className="container py-5">
-      <div className="row">
-        <div className="col-lg-4 col-md-4 col-sm-12">
+      <div className="row justify-content-center">
+        <div className="col-lg-4 col-md-4 col-sm-10">
           <CardOneBg className="card mb-5">
             <img src={robotics} className="card-img-top" alt="..." />
             <div className="card-body">
@@ -47,7 +47,7 @@ const HomeSectionOne = () => {
             </div>
           </CardOneBg>
         </div>
-        <div className="col-lg-4 col-md-4 col-sm-12">
+        <div className="col-lg-4 col-md-4 col-sm-10">
           <CardOneBg className="card mb-5">
             <img src={language} className="card-img-top" alt="..." />
             <div className="card-body">
@@ -55,7 +55,7 @@ const HomeSectionOne = () => {
             </div>
           </CardOneBg>
         </div>
-        <div className="col-lg-4 col-md-4 col-sm-12">
+        <div className="col-lg-4 col-md-4 col-sm-10">
           <CardOneBg className="card mb-5">
             <img src={coding} className="card-img-top" alt="..." />
             <div className="card-body">
@@ -150,7 +150,7 @@ const SummerCampSection = () => {
             className="btn"
             style={{ backgroundColor: "#724598", color: "#ffffff" }}
           >
-            Call to Action
+            View Calendar
           </a>
         </div>
       </div>

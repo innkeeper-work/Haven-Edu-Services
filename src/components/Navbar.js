@@ -3,9 +3,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 // Components
-import { FacebookIcon } from "../components/Icons";
-import { InstagramIcon } from "../components/Icons";
-import { LinkedInIcon } from "../components/Icons";
+// import { FacebookIcon } from "../components/Icons";
+// import { InstagramIcon } from "../components/Icons";
+// import { LinkedInIcon } from "../components/Icons";
 
 // Images
 import havenfavico from "../images/havenfavico.png";
@@ -70,7 +70,8 @@ export const NavbarSection = () => {
               </Link>
             </li>
           </ul>
-          <Link
+
+          {/* <Link
             to="https://m.facebook.com/haveneduservices/"
             className="mx-2"
             style={{ color: "#000" }}
@@ -86,7 +87,7 @@ export const NavbarSection = () => {
           </Link>
           <Link to="/about" className="mx-2" style={{ color: "#000" }}>
             <LinkedInIcon />
-          </Link>
+          </Link> */}
         </div>
       </div>
     </nav>

@@ -91,7 +91,7 @@ export const Blog = () => {
   return (
     <>
       <div className="container">
-        <div className="row">
+        <div className="row justify-content-center">
           <div>
             <h4 className="text-center my-4">Latest News</h4>
             {/* <hr
@@ -100,7 +100,7 @@ export const Blog = () => {
             ></hr> */}
           </div>
 
-          <div className="col-lg-4 col-md-4 col-sm-12 ">
+          <div className="col-lg-4 col-md-4 col-sm-10 ">
             {" "}
             <BlogCard className="card mb-5">
               <img src={games6} className="card-img-top" alt="..." />
@@ -118,7 +118,7 @@ export const Blog = () => {
             </BlogCard>
           </div>
 
-          <div className="col-lg-4 col-md-4 col-sm-12">
+          <div className="col-lg-4 col-md-4 col-sm-10">
             {" "}
             <BlogCard className="card mb-5">
               <img src={games5} className="card-img-top" alt="..." />
@@ -135,7 +135,7 @@ export const Blog = () => {
               </div>
             </BlogCard>
           </div>
-          <div className="col-lg-4 col-md-4 col-sm-12">
+          <div className="col-lg-4 col-md-4 col-sm-10">
             {" "}
             <BlogCard className="card mb-5">
               <img src={games5} className="card-img-top" alt="..." />
