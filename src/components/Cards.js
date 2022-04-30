@@ -7,6 +7,7 @@ import { CardOneBg } from "../components/styles/stylcomponents";
 //Images
 import femi from "../images/femi.jpeg";
 import games5 from "../images/games5.jpg";
+import games6 from "../images/games6.jpg";
 
 export const Testimonials = () => {
   return (
@@ -102,7 +103,7 @@ export const Blog = () => {
           <div className="col-lg-4 col-md-4 col-sm-12 ">
             {" "}
             <BlogCard className="card mb-5">
-              <img src={games5} className="card-img-top" alt="..." />
+              <img src={games6} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">Card title</h5>
                 <p className="card-text">
