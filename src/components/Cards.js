@@ -6,9 +6,7 @@ import { CardOneBg } from "../components/styles/stylcomponents";
 
 //Images
 import femi from "../images/femi.jpeg";
-// import blog1 from "../images/blog1.jpg";
-import blog2 from "../images/blog2.jpg";
-import blog3 from "../images/blog3.jpg";
+import games5 from "../images/games5.jpg";
 
 export const Testimonials = () => {
   return (
@@ -104,7 +102,7 @@ export const Blog = () => {
           <div className="col-lg-4 col-md-4 col-sm-12 ">
             {" "}
             <BlogCard className="card mb-5">
-              <img src={blog2} className="card-img-top" alt="..." />
+              <img src={games5} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">Card title</h5>
                 <p className="card-text">
@@ -122,7 +120,7 @@ export const Blog = () => {
           <div className="col-lg-4 col-md-4 col-sm-12">
             {" "}
             <BlogCard className="card mb-5">
-              <img src={blog2} className="card-img-top" alt="..." />
+              <img src={games5} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">Card title</h5>
                 <p className="card-text">
@@ -139,7 +137,7 @@ export const Blog = () => {
           <div className="col-lg-4 col-md-4 col-sm-12">
             {" "}
             <BlogCard className="card mb-5">
-              <img src={blog3} className="card-img-top" alt="..." />
+              <img src={games5} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">Card title</h5>
                 <p className="card-text">
