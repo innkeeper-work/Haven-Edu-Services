@@ -1,5 +1,3 @@
-// import { Carousel } from "../components/styles/stylcomponents";
-// import { Contain } from "../components/styles/stylcomponents";
 import { HeroBg } from "../components/styles/stylcomponents";
 //Images
 import kid1 from "../images/kid1.png";

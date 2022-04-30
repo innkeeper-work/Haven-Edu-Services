@@ -3,7 +3,6 @@ import { NavbarSection } from "../components/Navbar";
 import { HeroSection } from "../components/Hero";
 import { GallerySection } from "../components/Cards";
 import imagegallery from "../data/gallery.json";
-import { CardOneBg } from "../components/styles/stylcomponents";
 import Footer from "../components/Footer";
 
 const Gallery = () => {

@@ -3,17 +3,12 @@ import { TestimonialCont } from "../components/styles/stylcomponents";
 import { TestimonialCard } from "../components/styles/stylcomponents";
 import { BlogCard } from "../components/styles/stylcomponents";
 import { CardOneBg } from "../components/styles/stylcomponents";
-import { CardOneText } from "../components/styles/stylcomponents";
 
 //Images
 import femi from "../images/femi.jpeg";
-import games5 from "../images/games5.jpg";
-import blog1 from "../images/blog1.jpg";
+// import blog1 from "../images/blog1.jpg";
 import blog2 from "../images/blog2.jpg";
 import blog3 from "../images/blog3.jpg";
-import robotics from "../images/robotics.jpg";
-import language from "../images/language.jpg";
-import coding from "../images/coding.jpg";
 
 export const Testimonials = () => {
   return (
@@ -109,7 +104,7 @@ export const Blog = () => {
           <div className="col-lg-4 col-md-4 col-sm-12 ">
             {" "}
             <BlogCard className="card mb-5">
-              <img src={blog1} className="card-img-top" alt="..." />
+              <img src={blog2} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">Card title</h5>
                 <p className="card-text">
