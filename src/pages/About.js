@@ -61,9 +61,10 @@ const Vision = () => {
           <div className="card-body py-5">
             <h5 className="card-title">Vision</h5>
             <p className="card-text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+              By 2025, we would be recognized by parents and educational
+              providers in Nigeria as a leading content provider and
+              facilitators for Technology, Foreign languages and Arts related
+              contents.
             </p>
           </div>
         </div>
@@ -71,9 +72,12 @@ const Vision = () => {
           <div className="card-body py-5">
             <h5 className="card-title">Mission</h5>
             <p className="card-text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+              We would operate a subscription-based web and mobile platforms
+              where our designed content can be shared with children via
+              multi-level games, quizzes, interactive videos, and early learning
+              assessments These platform will supplement and feed into our
+              current B2B model where we support schools with content and
+              Instructors to fill the identified Gaps.
             </p>
           </div>
         </div>
