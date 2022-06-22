@@ -37,10 +37,17 @@ const AboutSection = () => {
             <div className="card-body text-center my-lg-5">
               <h5 className="card-title">About</h5>
               <p className="card-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+                Haven Edu-Services is an extra-curricular childhood educational
+                organization focused on providing training contents related to
+                Multi-languages, Technology (Robotics, Coding & 3D
+                design/Printing) and Arts for children/Pre-teenagers (ages 3-12)
+                and Teenagers (ages 13-16).<br/> We are focused on tackling
+                'unemployability' challenge especially in the foundation years
+                of the future work force. We are contributing to plugging
+                potential future gaps today as we support children and teenagers
+                to be prepared for that imminent future by providing 'fun'
+                inclass learning content to complement what they learn from
+                their traditional schooling.
               </p>
             </div>
           </div>
