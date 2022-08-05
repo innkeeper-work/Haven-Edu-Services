@@ -4,7 +4,8 @@ import About from "./pages/About";
 import Games from "./pages/Games";
 import Gallery from "./pages/Gallery";
 // import Blog from "./pages/Blog";
-import Contact from "./pages/Contact";
+// import Contact from "./pages/Contact";
+import { motion } from "framer-motion";
 
 // import Footer from "./components/Footer";
 // import "./App.css";
@@ -18,7 +19,7 @@ function App() {
         <Route path="games" element={<Games />} />
         <Route path="gallery" element={<Gallery />} />
         {/* <Route path="blog" element={<Blog />} /> */}
-        <Route path="contact" element={<Contact />} />
+        {/* <Route path="contact" element={<Contact />} /> */}
       </Routes>
       {/* <footer>
         <Footer />

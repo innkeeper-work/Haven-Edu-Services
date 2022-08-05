@@ -1,3 +1,5 @@
+import React, { useState } from "react";
+// import axios from "axios";
 //Components
 import { NavbarSection } from "../components/Navbar";
 import { ContactSection } from "../components/styles/stylcomponents";
@@ -15,6 +17,42 @@ const Contact = () => {
 };
 
 const ContactHero = () => {
+  // const [name, setName] = useState("");
+  // const [email, setEmail] = useState("");
+  // const [number, setNumber] = useState("");
+  // const [school, setSchool] = useState("");
+  // const [message, setMessage] = useState("");
+  // const [people, setPeople] = useState([]);
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   if (name && email && number && school && message) {
+  //     const person = {
+  //       Name: name,
+  //       Email: email,
+  //       Number: number,
+  //       School: school,
+  //       Message: message,
+  //     };
+  // axios
+  //   .post(
+  //     "https://sheet.best/api/sheets/cf4843e3-0850-4788-b45f-038da9a5bd61",
+  //     person
+  //   )
+  //   .then((response) => {
+  //     console.log(response);
+  //   });
+  //     setPeople((people) => {
+  //       return [...people, person];
+  //     });
+  //     setName("");
+  //     setEmail("");
+  //     setNumber("");
+  //     setSchool("");
+  //     setMessage("");
+  //   } else {
+  //     console.log("empty value");
+  //   }
+  // };
   return (
     <>
       <div className="container" style={{ backgroundColor: "#ddd3e9" }}>
@@ -37,68 +75,72 @@ const ContactHero = () => {
                 {/* <div className="container d-flex justify-content-center"> */}
                 <div className="">
                   <div className="mb-3">
-                    <label for="exampleInputEmail1" className="form-label">
-                      Name
+                    <label htmlFor="name" className="form-label ">
+                      {/* Name */}
                     </label>
                     <input
-                      type="email"
+                      type="text"
                       className="form-control"
-                      id="exampleInputEmail1"
-                      aria-describedby="emailHelp"
+                      id="name"
+                      name="name"
+                      placeholder="Name"
+                      // value={name}
+                      // onChange={(e) => setName(e.target.value)}
+                      // aria-describedby="emailHelp"
                     />
                   </div>
                   <div className="mb-3">
-                    <label for="exampleInputEmail1" className="form-label">
-                      Email address
+                    <label htmlFor="email" className="form-label">
+                      {/* Email address */}
                     </label>
                     <input
-                      type="email"
+                      type="text"
                       className="form-control"
-                      id="exampleInputEmail1"
-                      aria-describedby="emailHelp"
+                      id="email"
+                      name="email"
+                      placeholder="Email Address"
+                      // value={email}
+                      // onChange={(e) => setEmail(e.target.value)}
+                      // aria-describedby="emailHelp"
                     />
                   </div>
                   <div className="mb-3">
-                    <label for="exampleInputEmail1" className="form-label">
-                      Phone Number
-                    </label>
+                    <label htmlFor="number" className="form-label"></label>
                     <input
-                      type="email"
+                      type="number"
                       className="form-control"
-                      id="exampleInputEmail1"
-                      aria-describedby="emailHelp"
+                      id="number"
+                      name="number"
+                      placeholder="Phone Number"
+                      // value={number}
+                      // onChange={(e) => setNumber(e.target.value)}
                     />
                   </div>
                   <div className="mb-3">
-                    <label for="exampleInputEmail1" className="form-label">
-                      School/ Organization
-                    </label>
+                    <label htmlFor="school" className="form-label"></label>
                     <input
-                      type="email"
+                      type="text"
                       className="form-control"
-                      id="exampleInputEmail1"
-                      aria-describedby="emailHelp"
+                      id="school"
+                      name="school"
+                      placeholder="School/ Organization"
+                      // value={school}
+                      // onChange={(e) => setSchool(e.target.value)}
                     />
                   </div>
                   <div className="mb-3">
-                    <label for="exampleInputPassword1" className="form-label">
-                      Message
-                    </label>
-                    <input
-                      type="password"
+                    <label htmlFor="message" className="form-label"></label>
+                    <textarea
+                      type="text"
                       className="form-control"
-                      id="exampleInputPassword1"
-                    />
+                      id="message"
+                      name="message"
+                      placeholder="Message"
+                      // value={message}
+                      // onChange={(e) => setMessage(e.target.value)}
+                    ></textarea>
                   </div>
-                  {/* <div className="mb-3 form-check">
-                    <input
-                      type="checkbox"
-                      className="form-check-input"
-                      id="exampleCheck1"
-                    />
-                  </div> */}
                 </div>{" "}
-                {/* </div>{" "} */}
                 <div className="d-flex justify-content-end">
                   <button
                     type="submit"
@@ -109,6 +151,18 @@ const ContactHero = () => {
                   </button>
                 </div>
               </form>
+              {/* {people.map((person) => {
+                const { id, name, email, number, school, message } = person;
+                return (
+                  <div className="item">
+                    <p>{name}</p>
+                    <p>{email}</p>
+                    <p>{number}</p>
+                    <p>{school}</p>
+                    <p>{message}</p>
+                  </div>
+                );
+              })} */}
             </div>
           </ContactSection>
         </div>

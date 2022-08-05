@@ -1,6 +1,7 @@
 //Components
 import { TestimonialCont } from "../components/styles/stylcomponents";
-import { TestimonialCard } from "../components/styles/stylcomponents";
+import { TestimonialCardOne } from "../components/styles/stylcomponents";
+import { TestimonialCardTwo } from "../components/styles/stylcomponents";
 import { BlogCard } from "../components/styles/stylcomponents";
 import { CardOneBg } from "../components/styles/stylcomponents";
 
@@ -8,6 +9,9 @@ import { CardOneBg } from "../components/styles/stylcomponents";
 import femi from "../images/femi.jpeg";
 import games5 from "../images/games5.jpg";
 import games6 from "../images/games6.jpg";
+import creativesummer from "../images/creativesummer.jpeg";
+import teentech from "../images/teentech.jpeg";
+// import games6 from "../images/games6.jpg";
 
 export const Testimonials = () => {
   return (
@@ -16,7 +20,7 @@ export const Testimonials = () => {
         <TestimonialCont className="row bg-light my-5 justify-content-center">
           <h4 className="text-center my-4">Testimonials</h4>
           <div className="col-lg-5 col-md-6 col-12 mb-3">
-            <TestimonialCard className="">
+            <TestimonialCardOne className="">
               <div className="card-body">
                 <p className="card-text">
                   This is a longer card with supporting text below as a natural
@@ -46,10 +50,10 @@ export const Testimonials = () => {
                   </div>
                 </div>
               </div>
-            </TestimonialCard>
+            </TestimonialCardOne>
           </div>
           <div className="col-lg-5 col-md-6 col-12">
-            <TestimonialCard className="">
+            <TestimonialCardTwo className="">
               <div className="card-body">
                 <p className="card-text">
                   This is a longer card with supporting text below as a natural
@@ -79,7 +83,7 @@ export const Testimonials = () => {
                   </div>
                 </div>
               </div>
-            </TestimonialCard>
+            </TestimonialCardTwo>
           </div>
         </TestimonialCont>
       </div>
@@ -93,7 +97,7 @@ export const Blog = () => {
       <div className="container">
         <div className="row justify-content-center">
           <div>
-            <h4 className="text-center my-4">Latest News</h4>
+            <h4 className="text-center my-4">Latest Events</h4>
             {/* <hr
               className="w-25"
               style={{ height: "1.8px", backgroundColor: "#000000" }}
@@ -103,16 +107,19 @@ export const Blog = () => {
           <div className="col-lg-4 col-md-4 col-sm-10 ">
             {" "}
             <BlogCard className="card mb-5">
-              <img src={games6} className="card-img-top" alt="..." />
+              <img src={creativesummer} className="card-img-top" alt="..." />
               <div className="card-body">
-                <h5 className="card-title">Card title</h5>
+                <h5 className="card-title">Creative Summer 2022</h5>
                 <p className="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                  Haven Creative Summer for Champs of Ages 4-12 starts on 25th
+                  of July, 2022
                 </p>
-                <a href="#" className="d-flex justify-content-end">
-                  Read More
+                <a
+                  href="http://bit.ly/havensummer2022"
+                  target="_blank"
+                  className="d-flex justify-content-end"
+                >
+                  Register Here
                 </a>
               </div>
             </BlogCard>
@@ -121,16 +128,19 @@ export const Blog = () => {
           <div className="col-lg-4 col-md-4 col-sm-10">
             {" "}
             <BlogCard className="card mb-5">
-              <img src={games5} className="card-img-top" alt="..." />
+              <img src={teentech} className="card-img-top" alt="..." />
               <div className="card-body">
-                <h5 className="card-title">Card title</h5>
+                <h5 className="card-title">Teen Tech 2022</h5>
                 <p className="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                  Haven Teen Tech for teenagers of Ages 13 - 16 starts on 1st of
+                  August 2022.
                 </p>
-                <a href="#" className="d-flex justify-content-end">
-                  Read More
+                <a
+                  href="http://bit.ly/teentech2022"
+                  target="_blank"
+                  className="d-flex justify-content-end"
+                >
+                  Register Here
                 </a>
               </div>
             </BlogCard>
@@ -140,14 +150,16 @@ export const Blog = () => {
             <BlogCard className="card mb-5">
               <img src={games5} className="card-img-top" alt="..." />
               <div className="card-body">
-                <h5 className="card-title">Card title</h5>
+                <h5 className="card-title">Taekwondo Weekend Club</h5>
                 <p className="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                  Haven Taekwondo academy is open to children of ages 4-16.
                 </p>
-                <a href="#" className="d-flex justify-content-end">
-                  Read More
+                <a
+                  href="http://bit.ly/havenmartialarts"
+                  target="_blank"
+                  className="d-flex justify-content-end"
+                >
+                  Register Here
                 </a>
               </div>
             </BlogCard>

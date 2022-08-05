@@ -1,0 +1,76 @@
+{
+  "techgallery": [
+    {
+      "id": 1,
+      "img": "../../images/tech1.jpg"
+    },
+    {
+      "id": 2,
+      "img": "../../images/tech2.jpg"
+    },
+    {
+      "id": 3,
+      "img": "../../images/tech3.jpg"
+    },
+    {
+      "id": 4,
+      "img": "../../images/tech4.jpg"
+    },
+    {
+      "id": 5,
+      "img": "../../images/tech5.jpg"
+    },
+    {
+      "id": 6,
+      "img": "../../images/tech6.jpg"
+    },
+    {
+      "id": 7,
+      "img": "../../images/tech7.jpg"
+    },
+    {
+      "id": 8,
+      "img": "../../images/tech8.jpg"
+    },
+    {
+      "id": 9,
+      "img": "../../images/tech9.jpg"
+    },
+    {
+      "id": 10,
+      "img": "../../images/tech10.jpg"
+    },
+    {
+      "id": 11,
+      "img": "../../images/tech11.jpg"
+    },
+    {
+      "id": 12,
+      "img": "../../images/tech12.jpg"
+    },
+    {
+      "id": 13,
+      "img": "../../images/tech13.jpg"
+    },
+    {
+      "id": 14,
+      "img": "../../images/tech14.jpg"
+    },
+    {
+      "id": 15,
+      "img": "../../images/tech15.jpg"
+    },
+    {
+      "id": 16,
+      "img": "../../images/tech16.jpg"
+    },
+    {
+      "id": 17,
+      "img": "../../images/tech17.jpg"
+    },
+    {
+      "id": 18,
+      "img": "../../images/tech18.jpg"
+    }
+  ]
+}

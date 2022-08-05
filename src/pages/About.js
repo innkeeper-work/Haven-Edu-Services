@@ -10,6 +10,7 @@ import coding2 from "../images/coding2.jpg";
 
 import games5 from "../images/games5.jpg";
 import aboutimage from "../images/aboutimage.png";
+import childrencoding from "../images/childrencoding.jpg";
 import femi from "../images/femi.jpeg";
 import olamide from "../images/olamide.png";
 import madamewunmi from "../images/madamewunmi.jpg";
@@ -37,10 +38,10 @@ const AboutSection = () => {
             <div className="card-body text-center my-lg-5">
               <h5 className="card-title">About</h5>
               <p className="card-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+                Haven Edu-Services is an extra-curricular childhood educational
+                organisation focused on providing training contents related to
+                Multi-languages, Technology and Arts for children (ages 4-12)
+                and Teenagers (ages 13-16)
               </p>
             </div>
           </div>
@@ -85,7 +86,7 @@ const Vision = () => {
 const Team = () => {
   return (
     <>
-      <div className="container">
+      <div className="container-fluid px-5">
         <div className="row justify-content-center">
           <h4 className="text-center my-5">Team</h4>
           <div className="col-lg-4 col-md-4 col-sm-10">

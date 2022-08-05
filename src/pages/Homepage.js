@@ -1,10 +1,14 @@
 //Components
 import { NavbarSection } from "../components/Navbar";
+// import { StickyIcons } from "../components/Hero";
 import { HeroSection } from "../components/Hero";
 import { CardOneBg } from "../components/styles/stylcomponents";
+import { CardTwoBg } from "../components/styles/stylcomponents";
+import { CardThreeBg } from "../components/styles/stylcomponents";
 import { SectionTwoCardBg } from "../components/styles/stylcomponents";
 import { Container } from "../components/styles/stylcomponents";
 import { SummerCamp } from "../components/styles/stylcomponents";
+import { SummerCampTwo } from "../components/styles/stylcomponents";
 import { StatSection } from "../components/styles/stylcomponents";
 import { Testimonials } from "../components/Cards";
 import { Blog } from "../components/Cards";
@@ -14,16 +18,25 @@ import Footer from "../components/Footer";
 import robotics from "../images/robotics.jpg";
 import language from "../images/language.jpg";
 import coding from "../images/coding.jpg";
+import tech from "../images/tech.jpg";
+import art11 from "../images/art11.jpg";
+import language2 from "../images/language2.jpg";
+import triangle from "../images/triangle.png";
+import circle from "../images/circle.png";
+import square from "../images/square.png";
 import games from "../images/games.png";
+import femi from "../images/femi.jpeg";
 
 const Home = () => {
   return (
     <>
       <NavbarSection />
       {/* <OurPartners /> */}
+      {/* <StickyIcons /> */}
+      {/* <StickyIconss /> */}
       <HeroSection />
-      <HomeSectionOne />
 
+      <HomeSectionOne />
       <RequestforBooking />
       {/* <PlayGames /> */}
       <SummerCampSection />
@@ -34,37 +47,75 @@ const Home = () => {
     </>
   );
 };
+// const StickyIconss = () => {
+//   return (
+//     <div className="container-fluid position-sticky top-0 start-0">
+//       <div className="row">
+//         <div className="col">
+//           <div
+//             className="title-section"
+//             style={{ backgroundColor: "blue", height: "200px" }}
+//           >
+//             <h1>Basic Sticky Sidebar with Bootstrap 4</h1>
+//           </div>
+//         </div>
+//       </div>
+//       <div className="row">
+//         <div className="col-7">
+//           <div
+//             className="content-section"
+//             style={{ backgroundColor: "#000000", height: "1000px" }}
+//           >
+//             <h2>Content Section</h2>
+//           </div>
+//         </div>
+//         <div className="col-5 ">
+//           <div className="">
+//             <div
+//               className=""
+//               style={{ backgroundColor: "yellow", height: "1000px" }}
+//             >
+//               <h3>Item 1</h3>
+//             </div>
+//           </div>
+//         </div>
+//       </div>
+//     </div>
+//   );
+// };
 
 const HomeSectionOne = () => {
   return (
-    <div className="container py-5">
-      <div className="row justify-content-center">
-        <div className="col-lg-4 col-md-4 col-sm-10">
-          <CardOneBg className="card mb-5">
-            <img src={robotics} className="card-img-top" alt="..." />
-            <div className="card-body">
-              <h5 className="card-title text-center">Robotics</h5>
-            </div>
-          </CardOneBg>
-        </div>
-        <div className="col-lg-4 col-md-4 col-sm-10">
-          <CardOneBg className="card mb-5">
-            <img src={language} className="card-img-top" alt="..." />
-            <div className="card-body">
-              <h5 className="card-title text-center">Language</h5>
-            </div>
-          </CardOneBg>
-        </div>
-        <div className="col-lg-4 col-md-4 col-sm-10">
-          <CardOneBg className="card mb-5">
-            <img src={coding} className="card-img-top" alt="..." />
-            <div className="card-body">
-              <h5 className="card-title text-center">Coding</h5>
-            </div>
-          </CardOneBg>
+    <>
+      <div className="container py-5">
+        <div className="row justify-content-center">
+          <div className="col-lg-4 col-md-4 col-sm-10 col-xs-6 ">
+            <CardOneBg className="card mb-5">
+              <img src={tech} className="card-img-top" alt="..." />
+              <div className="card-body">
+                <h5 className="card-title text-center">Tech</h5>
+              </div>
+            </CardOneBg>
+          </div>
+          <div className="col-lg-4 col-md-4 col-sm-10">
+            <CardTwoBg className="card mb-5">
+              <img src={art11} className="card-img-top" alt="..." />
+              <div className="card-body">
+                <h5 className="card-title text-center">Arts</h5>
+              </div>
+            </CardTwoBg>
+          </div>
+          <div className="col-lg-4 col-md-4 col-sm-10">
+            <CardThreeBg className="card mb-5">
+              <img src={language2} className="card-img-top" alt="..." />
+              <div className="card-body">
+                <h5 className="card-title text-center">Language</h5>
+              </div>
+            </CardThreeBg>
+          </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
@@ -81,7 +132,7 @@ const RequestforBooking = () => {
             className="btn mx-3 w-50"
             style={{ backgroundColor: "#724598", color: "#ffffff" }}
           >
-            Send Request
+            <b>Send Request</b>
           </a>
         </Container>
       </div>
@@ -104,21 +155,19 @@ const RequestforBooking = () => {
 
 const SummerCampSection = () => {
   return (
-    <>
+    <div className="">
       <SummerCamp className="my-5 pt-4 d-none d-sm-none d-md-none d-lg-block d-xl-block d-xxl-block">
         <div className="card-body col-lg-6 ms-lg-5">
           <h5 className="card-title">Summer Camp</h5>
           <p className="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content. Some quick example text to build on the
-            card title and make up the bulk of the card's content. Some quick
-            example text to build on the card title and make up the bulk of the
-            card's content. Some quick example text to build on the card title
-            and make up the bulk of the card's content. Some quick example text
-            to build on the card title and make up the bulk of the card's
-            content. Some quick example text to build on the card title and make
-            up the bulk of the card's content.
+            Our Summer Camps are exciting and engaging with competent
+            facilitators and instructors. We have two section of Summer
+            activities:
           </p>
+          <ul>
+            <li>Haven Creative Summer</li>
+            <li>Haven Teen Tech</li>
+          </ul>
           <a
             href="#"
             className="btn"
@@ -128,54 +177,87 @@ const SummerCampSection = () => {
           </a>
         </div>
       </SummerCamp>
-      <div
+      <SummerCampTwo
         className="my-5 pt-4 d-block d-sm-block d-md-block d-lg-none d-xl-none d-xxl-none"
-        style={{ backgroundColor: "#F1BFE2", color: "#000000" }}
+        // style={{ color: "#000000" }}
       >
-        <div className="card-body col-lg-6 ms-lg-5">
+        <div className="card-body col-lg-6 ms-5">
           <h5 className="card-title">Summer Camp</h5>
           <p className="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content. Some quick example text to build on the
-            card title and make up the bulk of the card's content. Some quick
-            example text to build on the card title and make up the bulk of the
-            card's content. Some quick example text to build on the card title
-            and make up the bulk of the card's content. Some quick example text
-            to build on the card title and make up the bulk of the card's
-            content. Some quick example text to build on the card title and make
-            up the bulk of the card's content.
+            Our Summer Camps are exciting and engaging with competent
+            facilitators and instructors. We have two section of Summer
+            activities:
           </p>
+          <li>Haven Creative Summer</li>
+          <li>Haven Teen Tech</li>
           <a
             href="#"
-            className="btn"
+            className="btn mt-3"
             style={{ backgroundColor: "#724598", color: "#ffffff" }}
           >
-            View Calendar
+            <b>View Calendar</b>
           </a>
         </div>
-      </div>
-    </>
+      </SummerCampTwo>
+    </div>
   );
 };
 
 const Statistics = () => {
   return (
-    <StatSection className="card-group pt-3">
+    <StatSection className="card-group px-5">
       <div className="col">
-        <div className="card-body text-center">
-          <h5 className="card-title ">12</h5>
+        <div className="card-body ">
+          <div className="d-flex align-items-center">
+            {" "}
+            <img
+              src={triangle}
+              alt=""
+              // width="100px"
+              // height="100px"
+              className="mb-3"
+            />
+            <h1 className="card-title ">4</h1>
+          </div>
           <p className="card-text">Partner Schools</p>
         </div>
       </div>
-      <div className="col">
+      {/* <div className="col">
         <div className="card-body text-center">
-          <h5 className="card-title">3</h5>
+          <h1 className="card-title">4</h1>
+          <p className="card-text">Languages Taught</p>
+        </div>
+      </div> */}
+
+      <div className="col">
+        <div className="card-body ">
+          <div className="d-flex align-items-center">
+            {" "}
+            <img
+              src={circle}
+              alt=""
+              // width="100px"
+              // height="100px"
+              className="  mb-3"
+            />
+            <h1 className="card-title ">4</h1>
+          </div>
           <p className="card-text">Languages Taught</p>
         </div>
       </div>
       <div className="col">
-        <div className="card-body text-center">
-          <h5 className="card-title">5</h5>
+        <div className="card-body ">
+          <div className="d-flex align-items-center">
+            {" "}
+            <img
+              src={square}
+              alt=""
+              // width="100px"
+              // height="100px"
+              className="  mb-3"
+            />
+            <h1 className="card-title ">7</h1>
+          </div>
           <p className="card-text">Summer Camps</p>
         </div>
       </div>

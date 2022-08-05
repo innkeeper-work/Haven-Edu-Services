@@ -8,21 +8,23 @@ import { Link } from "react-router-dom";
 // import { LinkedInIcon } from "../components/Icons";
 
 // Images
-import havenfavico from "../images/havenfavico.png";
+import haven120 from "../images/haven120.png";
 
 export const NavbarSection = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg navbar-light bg-light py-0">
       <div className="container">
         <a className="navbar-brand" href="#">
           <img
-            src={havenfavico}
+            src={haven120}
             alt=""
-            width="30"
-            height="24"
             className="d-inline-block align-text-top"
           />
         </a>
+        {/* <Link to="/" className="navbar-brand ms-2 ">
+          {" "}
+          <img src={havenfavico} className="w-200 h-200" alt="" />
+        </Link> */}
         <button
           className="navbar-toggler"
           type="button"
@@ -40,33 +42,54 @@ export const NavbarSection = () => {
         >
           <ul className="navbar-nav">
             <li className="nav-item mx-3">
-              <Link to="/" className="nav-link active" aria-current="page">
-                Home
+              <Link
+                to="/"
+                className="nav-link active"
+                style={{ color: "#623A75" }}
+                aria-current="page"
+              >
+                <b>Home</b>
               </Link>
             </li>
             <li className="nav-item mx-3">
-              <Link to="/about" className="nav-link">
-                About
+              <Link
+                to="/about"
+                style={{ color: "#6E7DB5" }}
+                className="nav-link"
+              >
+                <b>About</b>
               </Link>
             </li>
-            <li className="nav-item mx-3">
+            {/* <li className="nav-item mx-3">
               <Link to="/games" className="nav-link">
                 Games
               </Link>
-            </li>
+            </li> */}
             <li className="nav-item mx-3">
-              <Link to="/gallery" className="nav-link">
-                Gallery
+              <Link
+                to="/gallery"
+                style={{ color: "#6E7DB5" }}
+                className="nav-link"
+              >
+                <b>Gallery</b>
               </Link>
             </li>
             <li className="nav-item mx-3">
-              <Link to="/blog" className="nav-link">
-                Blog
+              <Link
+                to="/blog"
+                style={{ color: "#6E7DB5" }}
+                className="nav-link"
+              >
+                <b>Blog</b>
               </Link>
             </li>
             <li className="nav-item mx-3">
-              <Link to="/contact" className="nav-link">
-                Contact
+              <Link
+                to="/contact"
+                style={{ color: "#6E7DB5" }}
+                className="nav-link"
+              >
+                <b>Contact</b>
               </Link>
             </li>
           </ul>
