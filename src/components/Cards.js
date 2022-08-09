@@ -2,8 +2,11 @@
 import { TestimonialCont } from "../components/styles/stylcomponents";
 import { TestimonialCardOne } from "../components/styles/stylcomponents";
 import { TestimonialCardTwo } from "../components/styles/stylcomponents";
-import { BlogCard } from "../components/styles/stylcomponents";
+import { LatestEventsCard } from "../components/styles/stylcomponents";
 import { CardOneBg } from "../components/styles/stylcomponents";
+import { GamesCard } from "../components/styles/stylcomponents";
+
+import { Buttons } from "../components/styles/stylcomponents";
 
 //Images
 import femi from "../images/femi.jpeg";
@@ -91,7 +94,53 @@ export const Testimonials = () => {
   );
 };
 
-export const Blog = () => {
+export const BlogCards = (props) => {
+  const { img, title, description, link } = props;
+  return (
+    <div className="mb-3 border">
+      <div className="row g-0 align-items-center">
+        <div className="col-md-4">
+          <img src={img} className="img-fluid h-100" alt="..." />
+        </div>
+        <div className="col-md-8 ">
+          <div className="card-body ">
+            <h5 className="card-title">{title}</h5>
+            <p className="card-text">{description}</p>
+            <div className="d-flex justify-content-end">
+              <b>
+                <a
+                  href={link}
+                  className=""
+                  style={{
+                    color: "#724598",
+                  }}
+                >
+                  Read more
+                </a>
+                {/* <a
+                  href={link}
+                  className="btn"
+                  style={{
+                    color: "#724598",
+                    background: "#fff",
+                    borderWidth: "2px",
+                    borderStyle: "solid",
+                    borderColor: "#724598",
+                  }}
+                >
+                  Read more
+                </a> */}
+                {/* E8AA00 */}
+              </b>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export const LatestEvents = () => {
   return (
     <>
       <div className="container">
@@ -106,7 +155,7 @@ export const Blog = () => {
 
           <div className="col-lg-4 col-md-4 col-sm-10 ">
             {" "}
-            <BlogCard className="card mb-5">
+            <LatestEventsCard className="card mb-5">
               <img src={creativesummer} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">Creative Summer 2022</h5>
@@ -114,20 +163,23 @@ export const Blog = () => {
                   Haven Creative Summer for Champs of Ages 4-12 starts on 25th
                   of July, 2022
                 </p>
-                <a
-                  href="http://bit.ly/havensummer2022"
-                  target="_blank"
-                  className="d-flex justify-content-end"
-                >
-                  Register Here
-                </a>
+                <div className="d-flex justify-content-end">
+                  <a
+                    href="http://bit.ly/havensummer2022"
+                    target="_blank"
+                    className="btn d-flex justify-content-end"
+                    style={{ backgroundColor: "#724598", color: "#fff" }}
+                  >
+                    Register Here
+                  </a>
+                </div>
               </div>
-            </BlogCard>
+            </LatestEventsCard>
           </div>
 
           <div className="col-lg-4 col-md-4 col-sm-10">
             {" "}
-            <BlogCard className="card mb-5">
+            <LatestEventsCard className="card mb-5">
               <img src={teentech} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">Teen Tech 2022</h5>
@@ -135,34 +187,41 @@ export const Blog = () => {
                   Haven Teen Tech for teenagers of Ages 13 - 16 starts on 1st of
                   August 2022.
                 </p>
-                <a
-                  href="http://bit.ly/teentech2022"
-                  target="_blank"
-                  className="d-flex justify-content-end"
-                >
-                  Register Here
-                </a>
+                <div className="d-flex justify-content-end">
+                  <a
+                    href="http://bit.ly/teentech2022"
+                    target="_blank"
+                    className="btn d-flex justify-content-end"
+                    style={{ backgroundColor: "#724598", color: "#fff" }}
+                  >
+                    Register Here
+                  </a>
+                </div>
               </div>
-            </BlogCard>
+            </LatestEventsCard>
           </div>
           <div className="col-lg-4 col-md-4 col-sm-10">
             {" "}
-            <BlogCard className="card mb-5">
+            <LatestEventsCard className="card mb-5">
               <img src={games5} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">Taekwondo Weekend Club</h5>
                 <p className="card-text">
                   Haven Taekwondo academy is open to children of ages 4-16.
                 </p>
-                <a
-                  href="http://bit.ly/havenmartialarts"
-                  target="_blank"
-                  className="d-flex justify-content-end"
-                >
-                  Register Here
-                </a>
+                <div className="d-flex justify-content-end">
+                  {" "}
+                  <a
+                    href="http://bit.ly/havenmartialarts"
+                    target="_blank"
+                    className="btn d-flex justify-content-end"
+                    style={{ backgroundColor: "#724598", color: "#fff" }}
+                  >
+                    Register Here
+                  </a>
+                </div>
               </div>
-            </BlogCard>
+            </LatestEventsCard>
           </div>
         </div>
       </div>
@@ -182,5 +241,32 @@ export const GallerySection = (props) => {
         </div>
       </div>
     </>
+  );
+};
+
+export const Games = (props) => {
+  const { img, title, description, link } = props;
+  return (
+    <GamesCard className="card mb-5">
+      <img src={img} className="card-img-top" alt="..." />
+      <div
+        className="card-body"
+        style={{ backgroundColor: "#000000", color: "#fff" }}
+      >
+        <h5 className="card-title">{title}</h5>
+        <p className="card-text">{description}</p>
+        <div className="d-flex justify-content-end">
+          {" "}
+          <a
+            href={link}
+            target="_blank"
+            className="btn"
+            style={{ backgroundColor: "#e8aa00", color: "#000" }}
+          >
+            Play Now
+          </a>
+        </div>
+      </div>
+    </GamesCard>
   );
 };

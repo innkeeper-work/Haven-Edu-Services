@@ -140,13 +140,13 @@ const Footer = () => {
         </footer>
       </div> */}
       <div
-        className="container"
+        className="container mt-5"
         // style={{ backgroundColor: "#724598", color: "#ffffff" }}
       >
         {/* <div> */}{" "}
         <ul class="nav justify-content-center text-dark pb-3 mb-3">
           <li class="nav-item ">
-            <Link to="/" class="nav-link px-2 " style={{ color: "#623A75" }}>
+            <Link to="/" class="nav-link px-2 " style={{ color: "#000000" }}>
               <b>Home</b>
             </Link>
           </li>
@@ -154,7 +154,7 @@ const Footer = () => {
             <Link
               to="/about"
               class="nav-link px-2 "
-              style={{ color: "#6E7DB5" }}
+              style={{ color: "#000000" }}
             >
               <b>About</b>
             </Link>
@@ -163,7 +163,7 @@ const Footer = () => {
             <Link
               to="/gallery"
               class="nav-link px-2 "
-              style={{ color: "#6E7DB5" }}
+              style={{ color: "#000000" }}
             >
               <b>Gallery</b>
             </Link>
@@ -172,7 +172,7 @@ const Footer = () => {
             <Link
               to="/blog"
               class="nav-link px-2 "
-              style={{ color: "#6E7DB5" }}
+              style={{ color: "#000000" }}
             >
               <b>Blog</b>
             </Link>
@@ -181,7 +181,7 @@ const Footer = () => {
             <Link
               to="/contact"
               class="nav-link px-2 "
-              style={{ color: "#6E7DB5" }}
+              style={{ color: "#000000" }}
             >
               <b>Contact</b>
             </Link>

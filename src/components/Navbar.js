@@ -3,9 +3,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 // Components
-// import { FacebookIcon } from "../components/Icons";
-// import { InstagramIcon } from "../components/Icons";
-// import { LinkedInIcon } from "../components/Icons";
+import { FacebookIcon } from "../components/Icons";
+import { InstagramIcon } from "../components/Icons";
+import { LinkedInIcon } from "../components/Icons";
 
 // Images
 import haven120 from "../images/haven120.png";
@@ -45,7 +45,7 @@ export const NavbarSection = () => {
               <Link
                 to="/"
                 className="nav-link active"
-                style={{ color: "#623A75" }}
+                style={{ color: "#000000" }}
                 aria-current="page"
               >
                 <b>Home</b>
@@ -54,21 +54,25 @@ export const NavbarSection = () => {
             <li className="nav-item mx-3">
               <Link
                 to="/about"
-                style={{ color: "#6E7DB5" }}
+                style={{ color: "#000000" }}
                 className="nav-link"
               >
                 <b>About</b>
               </Link>
             </li>
             {/* <li className="nav-item mx-3">
-              <Link to="/games" className="nav-link">
-                Games
+              <Link
+                to="/games"
+                className="nav-link"
+                style={{ color: "#000000" }}
+              >
+                <b>Games</b>
               </Link>
             </li> */}
             <li className="nav-item mx-3">
               <Link
                 to="/gallery"
-                style={{ color: "#6E7DB5" }}
+                style={{ color: "#000000" }}
                 className="nav-link"
               >
                 <b>Gallery</b>
@@ -77,7 +81,7 @@ export const NavbarSection = () => {
             <li className="nav-item mx-3">
               <Link
                 to="/blog"
-                style={{ color: "#6E7DB5" }}
+                style={{ color: "#000000" }}
                 className="nav-link"
               >
                 <b>Blog</b>
@@ -86,7 +90,7 @@ export const NavbarSection = () => {
             <li className="nav-item mx-3">
               <Link
                 to="/contact"
-                style={{ color: "#6E7DB5" }}
+                style={{ color: "#000000" }}
                 className="nav-link"
               >
                 <b>Contact</b>
@@ -94,23 +98,23 @@ export const NavbarSection = () => {
             </li>
           </ul>
 
-          {/* <Link
+          <Link
             to="https://m.facebook.com/haveneduservices/"
             className="mx-2"
-            style={{ color: "#000" }}
+            style={{ color: "#2D25E1" }}
           >
             <FacebookIcon />
           </Link>
           <Link
             to="https://instagram.com/haveneduservices?igshid=1fyt565z18d4u"
             className="mx-2"
-            style={{ color: "#000" }}
+            style={{ color: "#E1116C" }}
           >
             <InstagramIcon />
           </Link>
-          <Link to="/about" className="mx-2" style={{ color: "#000" }}>
+          <Link to="/about" className="mx-2" style={{ color: "#37A7CF" }}>
             <LinkedInIcon />
-          </Link> */}
+          </Link>
         </div>
       </div>
     </nav>

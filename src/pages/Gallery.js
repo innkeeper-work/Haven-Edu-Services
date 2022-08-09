@@ -3,17 +3,19 @@ import React, { useState } from "react";
 import { NavbarSection } from "../components/Navbar";
 import { HeroSection } from "../components/Hero";
 import { GallerySection } from "../components/Cards";
+import { GalleryHeroSection } from "../components/Hero";
 import artsgallery from "../data/arts.json";
 import languagegallery from "../data/language.json";
 import techgallery from "../data/tech.json";
 import Footer from "../components/Footer";
 import { Buttons } from "../components/styles/stylcomponents";
+// import { GalleryButtonBg } from "../components/styles/stylcomponents";
 
 const Gallery = () => {
   return (
     <>
       <NavbarSection />
-      <HeroSection />
+      <GalleryHeroSection />
       {/* <GallerySection /> */}
       {/* <GalleryButton /> */}
       <GalleryImages />
@@ -93,23 +95,25 @@ const GalleryImages = () => {
   const [active, setActive] = useState("Firstcard");
   return (
     <div>
-      <div className="d-flex justify-content-center">
+      <div className="d-flex justify-content-center mt-4">
         <Buttons
-          className="btn ms-4 mt-5 btnHover active"
+          className="btn ms-4 mt-3 mb-1 btnHover active"
           // style={{ backgroundColor: "#724598", color: "#ffffff" }}
           onClick={() => setActive("Firstcard")}
         >
           Tech
         </Buttons>
         <Buttons
-          className="btn ms-4 mt-5"
+          className="btn ms-4 mt-3"
+          mb1
           // style={{ backgroundColor: "#724598", color: "#ffffff" }}
           onClick={() => setActive("Secondcard")}
         >
           Language
         </Buttons>
         <Buttons
-          className="btn ms-4 mt-5"
+          className="btn ms-4 mt-3"
+          mb1
           // style={{ backgroundColor: "#724598", color: "#ffffff" }}
           onClick={() => setActive("Thirdcard")}
         >

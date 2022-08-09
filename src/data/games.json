@@ -1,0 +1,28 @@
+{
+  "allgames": [
+    {
+      "id": 1,
+      "img": "../../games/games1.jpg",
+      "title": "Game Title",
+      "link": ""
+    },
+    {
+      "id": 2,
+      "img": "../../games/games2.jpg",
+      "title": "Game Title",
+      "link": ""
+    },
+    {
+      "id": 3,
+      "img": "../../games/games3.jpg",
+      "title": "Game Title",
+      "link": ""
+    },
+    {
+      "id": 4,
+      "img": "../../games/games4.jpg",
+      "title": "Game Title",
+      "link": ""
+    }
+  ]
+}

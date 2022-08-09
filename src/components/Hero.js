@@ -3,6 +3,10 @@ import { Link } from "react-router-dom";
 
 //External import
 import { HeroBg } from "../components/styles/stylcomponents";
+import { AboutHeroBg } from "../components/styles/stylcomponents";
+import { GalleryHeroBg } from "../components/styles/stylcomponents";
+import { GalleryHeroCard } from "../components/styles/stylcomponents";
+import { BlogHeroBg } from "../components/styles/stylcomponents";
 import Contact from "../pages/Contact";
 
 // Components
@@ -11,6 +15,8 @@ import { InstagramIcon } from "../components/Icons";
 import { LinkedInIcon } from "../components/Icons";
 //Images
 import kid1 from "../images/kid1.png";
+import aboutheroimage from "../images/aboutheroimage.png";
+import blogheroimage from "../images/blogheroimage.png";
 
 // export const StickyIcons = () => {
 //   return(
@@ -171,6 +177,182 @@ export const HeroSection = () => {
   );
 };
 
+// export const AboutHeroSection = () => {
+//   return (
+//     <AboutHeroBg className="px-4 container-fluid pt-3 pb-4">
+//       <div className="row align-items-center justify-content-start mt-4 mx-5 ps-5">
+//         <div className="col-lg-6 col-md-7 col-sm-12 py-5">
+//           <h3 className="lh-5 herotextblack d-none d-lg-block d-md-none d-sm-none d-xs-none">
+//             Who We Are
+//           </h3>
+//           <h4 className="lh-5 d-xs-block d-sm-block d-md-block d-lg-none">
+//             Who We Are
+//           </h4>
+//           <p className="d-flex">
+//             Haven Edu-Services is an extra-curricular childhood educational
+//             organisation focused on providing training contents related to
+//             Multi-languages, Technology and Arts for children (ages 4-12) and
+//             Teenagers (ages 13-16)
+//           </p>
+//           <div className="d-md-flex justify-content-md-start">
+//             <button
+//               type="button"
+//               className="btn"
+//               style={{ backgroundColor: "#724598", color: "#ffffff" }}
+//             >
+//               <b>Register Now</b>
+//             </button>
+//           </div>
+//         </div>
+// {
+/* <div className="col-lg-5 col-md-5 col-sm-12">
+//           <img
+//             src={kid1}
+//             className="d-block mx-lg-auto img-fluid"
+//             alt=""
+//             loading=""
+//           />
+//         </div> */
+// }
+//       </div>
+//     </AboutHeroBg>
+//   );
+// };
+export const AboutHeroSection = () => {
+  return (
+    <AboutHeroBg className="px-4 container-fluid">
+      <div className="row align-items-center justify-content-center mx-4">
+        <div className="col-lg-6 col-md-7 col-sm-12 py-5">
+          <h3
+            className="lh-5 herotextblack d-none d-lg-block d-md-none d-sm-none d-xs-none"
+            style={{ color: "#2B0947" }}
+          >
+            Who We Are
+          </h3>
+          <h4
+            className="lh-5 d-xs-block d-sm-block d-md-block d-lg-none"
+            style={{ color: "#2B0947" }}
+          >
+            Who We Are
+          </h4>
+          <p className="d-flex">
+            Haven Edu-Services is an extra-curricular childhood educational
+            organisation focused on providing training contents related to
+            Multi-languages, Technology and Arts for children (ages 4-12) and
+            Teenagers (ages 13-16)
+          </p>
+          {/* <div className="d-md-flex justify-content-md-start">
+            <button
+              type="button"
+              className="btn"
+              style={{ backgroundColor: "#724598", color: "#ffffff" }}
+            >
+              <b>Register Now</b>
+            </button>
+          </div> */}
+        </div>
+        <div className="col-lg-5 col-md-5 col-sm-12">
+          <img
+            src={aboutheroimage}
+            className="d-block mx-lg-auto img-fluid"
+            alt=""
+            loading=""
+          />
+        </div>
+      </div>
+    </AboutHeroBg>
+  );
+};
+export const GalleryHeroSection = () => {
+  return (
+    <GalleryHeroBg className="px-4 container-fluid py-5 align-items-center">
+      {/* <div className="container py-5"> */}
+      <div className="row justify-content-center pt-5 mt-5">
+        <div className="col-lg-4 col-md-4 col-sm-10 col-xs-6">
+          <GalleryHeroCard className="card mb-5 pt-5 mt-5">
+            <div className="card-body">
+              <h3 className="card-title text-center ">Gallery Session</h3>
+            </div>
+          </GalleryHeroCard>
+        </div>
+        {/* </div> */}
+      </div>
+    </GalleryHeroBg>
+  );
+};
+
+export const BlogHeroSection = () => {
+  return (
+    <>
+      <div className="container-fluid ">
+        <div className="row justify-content-center">
+          <div className="col-lg-8 col-md-12 col-sm-12 py-5">
+            <h3
+              className="lh-5 herotextblack d-none d-lg-block d-md-none d-sm-none d-xs-none text-center"
+              style={{ color: "#2B0947" }}
+            >
+              Lorem ipsum dolor sit amet, consectetur dolor sit amet
+            </h3>
+            <h4
+              className="lh-5 d-xs-block d-sm-block d-md-block d-lg-none text-center"
+              style={{ color: "#2B0947" }}
+            >
+              Lorem ipsum dolor sit amet, consectetur dolor sit amet
+            </h4>
+            <p className="d-flex text-center">
+              Lorem ipsum dolor sit amet, consectetur, lorem ipsum dolor sit
+              amet, consectetur ipsum dolor sit amet, consectetur, lorem ipsum
+              dolor sit amet, consectetur
+            </p>
+          </div>
+        </div>
+      </div>
+      <BlogHeroBg className="px-4 container-fluid pb-5">
+        <div className="row align-items-center justify-content-between mt-2 mx-4">
+          <div className="col-lg-6 col-md-5 col-sm-12">
+            <img
+              src={blogheroimage}
+              className="d-block mx-lg-auto img-fluid"
+              alt=""
+              loading=""
+            />
+          </div>
+          <div className="col-lg-6 col-md-7 col-sm-12 py-5">
+            <h3
+              className="lh-5 herotextblack d-none d-lg-block d-md-none d-sm-none d-xs-none"
+              style={{ color: "#2B0947" }}
+            >
+              Lorem ipsum dolor sit amet, consectetur dolor sit amet consectetur
+            </h3>
+            <h4
+              className="lh-5 d-xs-block d-sm-block d-md-block d-lg-none"
+              style={{ color: "#2B0947" }}
+            >
+              Lorem ipsum dolor sit amet, consectetur dolor sit amet consectetur
+            </h4>
+            <p className="d-flex">
+              Lorem ipsum dolor sit amet, consectetur, lorem ipsum sit amet,
+              consectetur ipsum dolor sit amet, consectetur, lorem ipsum dolor
+              sit amet, consectetur sit amet, consectetur consectetur sit amet,
+              consectetur consectetur ipsum dolor sit amet sit amet, consectetur
+              sit amet, consectetur consectetur sit amet, consectetur
+              consectetur ipsum dolor sit amet.
+            </p>
+            {/* <div className="d-md-flex justify-content-md-start">
+            <button
+              type="button"
+              className="btn"
+              style={{ backgroundColor: "#724598", color: "#ffffff" }}
+            >
+              <b>Register Now</b>
+            </button>
+          </div> */}
+          </div>
+        </div>
+      </BlogHeroBg>
+    </>
+  );
+};
 // export const HeroSection = () => {
 //   return (
 //     <>
