@@ -1,3 +1,4 @@
+import breakpoints from "./breakpoints";
 import styled, { keyframes, css } from "styled-components";
 import gallerybg from "../../images/gallerybg.png";
 
@@ -14,14 +15,14 @@ import gallerybg from "../../images/gallerybg.png";
 //   background-size: contain;
 //   background: url(${herobg});
 // `;
-export const NavbarSec = styled.div`
-  // justify-content-center;
-  // border-color: transparent !important;
-  &:focus {
-    outline: none;
-    box-shadow: none;
-  }
-`;
+// export const NavbarSec = styled.div`
+//   // justify-content-center;
+//   // border-color: transparent !important;
+//   &:focus {
+//     outline: none;
+//     box-shadow: none;
+//   }
+// `;
 // export const Navitemfocus = styled.div`
 //   &:hover {
 //     background: #724598;
@@ -175,14 +176,11 @@ export const Buttons = styled.button`
     background: #724598;
     color: #ffffff;
   }
+
   &:focus {
     background: #724598;
     color: #ffffff;
   }
-  // .btnHover:active {
-  //   background: #724598;
-  //   color: #ffffff;
-  // }
   background: #fff;
   color: #724598;
   border: 2px solid #724598;
@@ -196,6 +194,7 @@ export const NavLink = styled.link`
 export const GalleryHeroBg = styled.div`
   background: url(${gallerybg});
   background-repeat: no-repeat;
+  background-size: cover;
 `;
 export const GalleryHeroCard = styled.div`
   background: rgba(255, 255, 255, 0.8);
@@ -206,3 +205,51 @@ export const GalleryHeroCard = styled.div`
 // export const GalleryButtonBg = styled.div`
 //   background-color: #ddd3e9;
 // `;
+
+// @media only screen and (min-width: 600px) {
+//   .testimonials {
+//     position: relative;
+//     top: 0;
+//     bottom: 0;
+//     right: 110px;
+//     opacity: 0.9;
+//   }
+// }
+// @media only screen and (max-width: 765px) {
+export const Navitemmobile = styled.div`
+  @media only screen and ${breakpoints.device.sm} {
+    background: #fff;
+    color: #000000;
+    border: 2px solid #724598;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 14rem;
+    height: 2.5rem;
+    &:hover {
+      background: #724598;
+      color: #ffffff;
+    }
+
+    &:focus {
+      background: #724598;
+      color: #ffffff;
+    }
+  }
+`;
+export const Navicons = styled.div`
+  @media only screen and ${breakpoints.device.sm} {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+`;
+export const NavUL = styled.ul`
+  @media only screen and ${breakpoints.device.sm} {
+    align-items: center;
+  }
+`;
+//   }
+// }

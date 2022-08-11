@@ -19,8 +19,9 @@ import Footer from "../components/Footer";
 // import language from "../images/language.jpg";
 // import coding from "../images/coding.jpg";
 import tech from "../images/tech.jpg";
-import art11 from "../images/art11.jpg";
+import art from "../images/art.jpg";
 import language2 from "../images/language2.jpg";
+import language from "../images/language.jpg";
 import summer1 from "../images/summer1.png";
 // import triangle from "../images/triangle.png";
 // import circle from "../images/circle.png";
@@ -89,8 +90,8 @@ const HomeSectionOne = () => {
   return (
     <>
       <div className="container py-5">
-        <div className="row justify-content-center">
-          <div className="col-lg-4 col-md-4 col-sm-10 col-xs-6 ">
+        <div className="row justify-content-center px-4">
+          <div className="col-lg-4 col-md-4 col-sm-10">
             <CardOneBg className="card mb-5">
               <img src={tech} className="card-img-top" alt="..." />
               <div className="card-body">
@@ -100,7 +101,7 @@ const HomeSectionOne = () => {
           </div>
           <div className="col-lg-4 col-md-4 col-sm-10">
             <CardTwoBg className="card mb-5">
-              <img src={art11} className="card-img-top" alt="..." />
+              <img src={art} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title text-center">Arts</h5>
               </div>
@@ -108,7 +109,7 @@ const HomeSectionOne = () => {
           </div>
           <div className="col-lg-4 col-md-4 col-sm-10">
             <CardThreeBg className="card mb-5">
-              <img src={language2} className="card-img-top" alt="..." />
+              <img src={language} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title text-center">Language</h5>
               </div>
@@ -152,13 +153,15 @@ const RequestforBooking = () => {
 //       </GamesSectionButton>
 //     </div>
 //   );
-// };
+// }; <HeroBg className="px-4 container-fluid py-5">
+// <div className="row align-items-center justify-content-center mt-lg-4 ">
+//   <div className="col-lg-6 col-md-7 col-sm-12 pb-3 ">
 
 const SummerCampSection = () => {
   return (
     <SummerCamp className="px-4 container-fluid pt-3 pb-4">
-      <div className="row align-items-center justify-content-center mt-4 mx-4">
-        <div className="col-lg-6 col-md-5 col-sm-12">
+      <div className="row align-items-center justify-content-center mt-4 mx-2">
+        <div className="col-lg-5 col-md-5 col-sm-12">
           <img
             src={summer1}
             className="d-block mx-lg-auto img-fluid"

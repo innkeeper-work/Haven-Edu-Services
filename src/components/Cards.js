@@ -21,7 +21,7 @@ export const Testimonials = () => {
   return (
     <>
       <div className="container py-5">
-        <TestimonialCont className="row bg-light my-5 justify-content-center">
+        <TestimonialCont className="row bg-light my-5 justify-content-center mx-3">
           <h4 className="text-center my-4">Testimonials</h4>
           <div className="col-lg-5 col-md-6 col-12 mb-3">
             <TestimonialCardOne className="">
@@ -145,7 +145,7 @@ export const LatestEvents = () => {
   return (
     <>
       <div className="container">
-        <div className="row justify-content-center">
+        <div className="row justify-content-center px-4">
           <div>
             <h4 className="text-center my-4">Latest Events</h4>
             {/* <hr

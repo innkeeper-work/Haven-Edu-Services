@@ -61,9 +61,9 @@ const About = () => {
 
 const Vision = () => {
   return (
-    <VisionSection className="px-4 container-fluid py-5 ">
-      <div className="row align-items-center justify-content-center mx-4">
-        <div className="col-lg-6 col-md-6 col-sm-12 py-5">
+    <VisionSection className="px-4 container-fluid py-2 ">
+      <div className="row align-items-center justify-content-center mx-2">
+        <div className="col-lg-6 col-md-6 col-sm-12">
           {/* <h3 className="lh-5 herotextblack d-none d-lg-block d-md-none d-sm-none d-xs-none">
             Vision
           </h3> */}
@@ -128,7 +128,7 @@ const Team = () => {
   return (
     <>
       <TeamSection className="container-fluid px-5">
-        <div className="row justify-content-evenly mx-5">
+        <div className="row justify-content-evenly">
           <h4 className="text-center my-5">Team</h4>
           <div className="col-lg-3 col-md-4 col-sm-10">
             <div className="card mb-5">

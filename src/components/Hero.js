@@ -141,8 +141,8 @@ import blogheroimage from "../images/blogheroimage.png";
 export const HeroSection = () => {
   return (
     <HeroBg className="px-4 container-fluid py-5">
-      <div className="row align-items-center justify-content-center mt-4 mx-4">
-        <div className="col-lg-6 col-md-7 col-sm-12 py-5">
+      <div className="row align-items-center justify-content-center mt-lg-4 ">
+        <div className="col-lg-6 col-md-7 col-sm-12 pb-3 ">
           <h3 className="lh-5 herotextblack d-none d-lg-block d-md-none d-sm-none d-xs-none">
             We are a group of Multi-Language, Arts and Technology Childhood
             Education Specialists.
@@ -155,17 +155,17 @@ export const HeroSection = () => {
             We partner with schools to facilitate exotic and strategic areas of
             learning to future Leaders
           </p>
-          <div className="d-md-flex justify-content-md-start">
+          <div className="d-md-flex justify-content-md-start ">
             <button
               type="button"
-              className="btn"
+              className="btn "
               style={{ backgroundColor: "#724598", color: "#ffffff" }}
             >
               <b>Register Now</b>
             </button>
           </div>
         </div>
-        <div className="col-lg-5 col-md-5 col-sm-12">
+        <div className="col-lg-5 col-md-5 col-sm-10">
           <img
             src={homeheroimage}
             className="d-block mx-lg-auto img-fluid"
@@ -222,8 +222,8 @@ export const HeroSection = () => {
 export const AboutHeroSection = () => {
   return (
     <AboutHeroBg className="px-4 container-fluid py-5">
-      <div className="row align-items-center justify-content-center mt-4 mx-4">
-        <div className="col-lg-6 col-md-7 col-sm-12 py-5">
+      <div className="row align-items-center justify-content-center ">
+        <div className="col-lg-5 col-md-7 col-sm-12 pb-3 ">
           <h3 className="lh-5 herotextblack d-none d-lg-block d-md-none d-sm-none d-xs-none">
             Who We Are
           </h3>
@@ -237,7 +237,7 @@ export const AboutHeroSection = () => {
             Teenagers (ages 13-16)
           </p>
         </div>
-        <div className="col-lg-5 col-md-5 col-sm-12">
+        <div className="col-lg-5 col-md-5 col-sm-10">
           <img
             src={aboutheroimage}
             className="d-block mx-lg-auto img-fluid"
