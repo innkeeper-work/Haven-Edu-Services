@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-// import axios from "axios";
+import axios from "axios";
 //Components
 import { NavbarSection } from "../components/Navbar";
 import { ContactSection } from "../components/styles/stylcomponents";
@@ -17,42 +17,42 @@ const Contact = () => {
 };
 
 const ContactHero = () => {
-  // const [name, setName] = useState("");
-  // const [email, setEmail] = useState("");
-  // const [number, setNumber] = useState("");
-  // const [school, setSchool] = useState("");
-  // const [message, setMessage] = useState("");
-  // const [people, setPeople] = useState([]);
-  // const handleSubmit = (e) => {
-  //   e.preventDefault();
-  //   if (name && email && number && school && message) {
-  //     const person = {
-  //       Name: name,
-  //       Email: email,
-  //       Number: number,
-  //       School: school,
-  //       Message: message,
-  //     };
-  // axios
-  //   .post(
-  //     "https://sheet.best/api/sheets/cf4843e3-0850-4788-b45f-038da9a5bd61",
-  //     person
-  //   )
-  //   .then((response) => {
-  //     console.log(response);
-  //   });
-  //     setPeople((people) => {
-  //       return [...people, person];
-  //     });
-  //     setName("");
-  //     setEmail("");
-  //     setNumber("");
-  //     setSchool("");
-  //     setMessage("");
-  //   } else {
-  //     console.log("empty value");
-  //   }
-  // };
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [number, setNumber] = useState("");
+  const [school, setSchool] = useState("");
+  const [message, setMessage] = useState("");
+  const [people, setPeople] = useState([]);
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    if (name && email && number && school && message) {
+      const person = {
+        Name: name,
+        Email: email,
+        Number: number,
+        School: school,
+        Message: message,
+      };
+      axios
+        .post(
+          "https://sheet.best/api/sheets/cf4843e3-0850-4788-b45f-038da9a5bd61",
+          person
+        )
+        .then((response) => {
+          console.log(response);
+        });
+      setPeople((people) => {
+        return [...people, person];
+      });
+      setName("");
+      setEmail("");
+      setNumber("");
+      setSchool("");
+      setMessage("");
+    } else {
+      console.log("empty value");
+    }
+  };
   return (
     <>
       <div className="container" style={{ backgroundColor: "#ddd3e9" }}>

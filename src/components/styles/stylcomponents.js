@@ -1,16 +1,38 @@
 import styled, { keyframes, css } from "styled-components";
-
-//Images
-import herobg from "../../images/herobg.png";
-import summer from "../../images/summer.png";
-import summercamp2 from "../../images/summercamp2.png";
-import abouthero from "../../images/abouthero.png";
 import gallerybg from "../../images/gallerybg.png";
+
+// * {
+//
+// }
+//Images
+// import herobg from "../../images/herobg.png";
+// import summer from "../../images/summer.png";
+// import summercamp2 from "../../images/summercamp2.png";
+// import abouthero from "../../images/abouthero.png";
 
 // export const Contain = styled.div`
 //   background-size: contain;
 //   background: url(${herobg});
 // `;
+export const NavbarSec = styled.div`
+  // justify-content-center;
+  // border-color: transparent !important;
+  &:focus {
+    outline: none;
+    box-shadow: none;
+  }
+`;
+// export const Navitemfocus = styled.div`
+//   &:hover {
+//     background: #724598;
+//     color: #ffffff !important;
+//   }
+//   // &:focus {
+//   //   backgroundcolor: #724598;
+//   //   color: #ffffff;
+//   // }
+// `;
+
 export const HeroBg = styled.div`
   background: linear-gradient(
     180deg,
@@ -24,10 +46,9 @@ export const HeroBg = styled.div`
 export const AboutHeroBg = styled.div`
   background: linear-gradient(
     180deg,
-    rgba(116, 181, 110, 0.1296) 0%,
-    rgba(116, 181, 110, 0) 100%
+    rgba(110, 125, 181, 0.1813) 0%,
+    rgba(110, 125, 181, 0) 100%
   );
-  // background: url(${abouthero});
   // background-repeat: no-repeat;
 `;
 
@@ -116,11 +137,8 @@ export const AboutCard = styled.div`
   border-radius: 10px;
 `;
 export const VisionSection = styled.div`
-  background: linear-gradient(
-    180deg,
-    rgba(110, 125, 181, 0.3087) 0%,
-    rgba(110, 125, 181, 0) 100%
-  );
+  background-color: #fff;
+
   // height: 12.5rem;
 `;
 export const TeamSection = styled.div`
@@ -154,6 +172,10 @@ export const BlogHeroBg = styled.div`
 
 export const Buttons = styled.button`
   &:hover {
+    background: #724598;
+    color: #ffffff;
+  }
+  &:focus {
     background: #724598;
     color: #ffffff;
   }

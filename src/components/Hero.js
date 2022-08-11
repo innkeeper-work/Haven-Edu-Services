@@ -16,6 +16,7 @@ import { LinkedInIcon } from "../components/Icons";
 //Images
 import kid1 from "../images/kid1.png";
 import aboutheroimage from "../images/aboutheroimage.png";
+import homeheroimage from "../images/homeheroimage.png";
 import blogheroimage from "../images/blogheroimage.png";
 
 // export const StickyIcons = () => {
@@ -139,7 +140,7 @@ import blogheroimage from "../images/blogheroimage.png";
 
 export const HeroSection = () => {
   return (
-    <HeroBg className="px-4 container-fluid pt-3 pb-4">
+    <HeroBg className="px-4 container-fluid py-5">
       <div className="row align-items-center justify-content-center mt-4 mx-4">
         <div className="col-lg-6 col-md-7 col-sm-12 py-5">
           <h3 className="lh-5 herotextblack d-none d-lg-block d-md-none d-sm-none d-xs-none">
@@ -166,7 +167,7 @@ export const HeroSection = () => {
         </div>
         <div className="col-lg-5 col-md-5 col-sm-12">
           <img
-            src={kid1}
+            src={homeheroimage}
             className="d-block mx-lg-auto img-fluid"
             alt=""
             loading=""
@@ -220,9 +221,34 @@ export const HeroSection = () => {
 // };
 export const AboutHeroSection = () => {
   return (
-    <AboutHeroBg className="px-4 container-fluid">
-      <div className="row align-items-center justify-content-center mx-4">
+    <AboutHeroBg className="px-4 container-fluid py-5">
+      <div className="row align-items-center justify-content-center mt-4 mx-4">
         <div className="col-lg-6 col-md-7 col-sm-12 py-5">
+          <h3 className="lh-5 herotextblack d-none d-lg-block d-md-none d-sm-none d-xs-none">
+            Who We Are
+          </h3>
+          <h4 className="lh-5 d-xs-block d-sm-block d-md-block d-lg-none">
+            Who We Are
+          </h4>
+          <p className="d-flex">
+            Haven Edu-Services is an extra-curricular childhood educational
+            organisation focused on providing training contents related to
+            Multi-languages, Technology and Arts for children (ages 4-12) and
+            Teenagers (ages 13-16)
+          </p>
+        </div>
+        <div className="col-lg-5 col-md-5 col-sm-12">
+          <img
+            src={aboutheroimage}
+            className="d-block mx-lg-auto img-fluid"
+            alt=""
+            loading=""
+          />
+        </div>
+      </div>
+
+      {/* <div className="row align-items-center justify-content-center mx-4">
+        <div className="col-lg-5 col-md-7 col-sm-12 py-5">
           <h3
             className="lh-5 herotextblack d-none d-lg-block d-md-none d-sm-none d-xs-none"
             style={{ color: "#2B0947" }}
@@ -241,15 +267,7 @@ export const AboutHeroSection = () => {
             Multi-languages, Technology and Arts for children (ages 4-12) and
             Teenagers (ages 13-16)
           </p>
-          {/* <div className="d-md-flex justify-content-md-start">
-            <button
-              type="button"
-              className="btn"
-              style={{ backgroundColor: "#724598", color: "#ffffff" }}
-            >
-              <b>Register Now</b>
-            </button>
-          </div> */}
+         
         </div>
         <div className="col-lg-5 col-md-5 col-sm-12">
           <img
@@ -259,7 +277,7 @@ export const AboutHeroSection = () => {
             loading=""
           />
         </div>
-      </div>
+      </div> */}
     </AboutHeroBg>
   );
 };

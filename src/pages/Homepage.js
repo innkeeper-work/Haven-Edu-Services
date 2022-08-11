@@ -15,18 +15,18 @@ import { LatestEvents } from "../components/Cards";
 import Footer from "../components/Footer";
 
 // Images
-import robotics from "../images/robotics.jpg";
-import language from "../images/language.jpg";
-import coding from "../images/coding.jpg";
+// import robotics from "../images/robotics.jpg";
+// import language from "../images/language.jpg";
+// import coding from "../images/coding.jpg";
 import tech from "../images/tech.jpg";
 import art11 from "../images/art11.jpg";
 import language2 from "../images/language2.jpg";
 import summer1 from "../images/summer1.png";
-import triangle from "../images/triangle.png";
-import circle from "../images/circle.png";
-import square from "../images/square.png";
-import games from "../images/games.png";
-import femi from "../images/femi.jpeg";
+// import triangle from "../images/triangle.png";
+// import circle from "../images/circle.png";
+// import square from "../images/square.png";
+// import games from "../images/games.png";
+// import femi from "../images/femi.jpeg";
 
 const Home = () => {
   return (

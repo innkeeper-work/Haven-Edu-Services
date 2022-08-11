@@ -2,19 +2,51 @@
   "artsgallery": [
     {
       "id": 1,
-      "img": "../../images/art1.jpeg"
+      "img": "../../images/art1.png"
     },
     {
       "id": 2,
-      "img": "../../images/art2.jpeg"
+      "img": "../../images/art2.png"
     },
     {
       "id": 3,
-      "img": "../../images/art3.jpeg"
+      "img": "../../images/art3.png"
     },
     {
       "id": 4,
-      "img": "../../images/gallery4.jpg"
+      "img": "../../images/art4.png"
+    },
+    {
+      "id": 5,
+      "img": "../../images/art5.png"
+    },
+    {
+      "id": 6,
+      "img": "../../images/art6.png"
+    },
+    {
+      "id": 7,
+      "img": "../../images/art7.png"
+    },
+    {
+      "id": 8,
+      "img": "../../images/art8.png"
+    },
+    {
+      "id": 9,
+      "img": "../../images/art9.png"
+    },
+    {
+      "id": 10,
+      "img": "../../images/art10.png"
+    },
+    {
+      "id": 11,
+      "img": "../../images/art11.png"
+    },
+    {
+      "id": 12,
+      "img": "../../images/art12.png"
     }
   ]
 }

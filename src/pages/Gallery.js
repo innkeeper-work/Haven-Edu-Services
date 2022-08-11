@@ -9,6 +9,7 @@ import languagegallery from "../data/language.json";
 import techgallery from "../data/tech.json";
 import Footer from "../components/Footer";
 import { Buttons } from "../components/styles/stylcomponents";
+
 // import { GalleryButtonBg } from "../components/styles/stylcomponents";
 
 const Gallery = () => {
@@ -97,7 +98,7 @@ const GalleryImages = () => {
     <div>
       <div className="d-flex justify-content-center mt-4">
         <Buttons
-          className="btn ms-4 mt-3 mb-1 btnHover active"
+          className="btn ms-4 mt-3 btnHover active"
           // style={{ backgroundColor: "#724598", color: "#ffffff" }}
           onClick={() => setActive("Firstcard")}
         >
@@ -109,7 +110,7 @@ const GalleryImages = () => {
           // style={{ backgroundColor: "#724598", color: "#ffffff" }}
           onClick={() => setActive("Secondcard")}
         >
-          Language
+          Craft
         </Buttons>
         <Buttons
           className="btn ms-4 mt-3"
@@ -172,7 +173,6 @@ const Language = () => {
       </div>
     </>
   );
-  // <h1>Robotics</h1>;
 };
 const Arts = () => {
   return (

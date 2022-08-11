@@ -2,23 +2,27 @@
   "languagegallery": [
     {
       "id": 1,
-      "img": "../../images/gallery5.jpg"
+      "img": "../../images/craft1.jpg"
     },
     {
       "id": 2,
-      "img": "../../images/gallery6.jpg"
+      "img": "../../images/craft2.jpg"
     },
     {
       "id": 3,
-      "img": "../../images/gallery7.jpg"
+      "img": "../../images/craft3.jpg"
     },
     {
       "id": 4,
-      "img": "../../images/gallery8.jpg"
+      "img": "../../images/craft4.jpg"
     },
     {
       "id": 5,
-      "img": "../../images/gallery9.jpg"
+      "img": "../../images/craft5.jpg"
+    },
+    {
+      "id": 5,
+      "img": "../../images/craft6.jpg"
     }
   ]
 }

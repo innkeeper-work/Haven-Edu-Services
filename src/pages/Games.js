@@ -7,7 +7,7 @@ import allgames from "../data/games.json";
 import Footer from "../components/Footer";
 
 //Images
-import games5 from "../images/games5.jpg";
+// import games5 from "../images/games5.jpg";
 
 const GamesSection = () => {
   return (

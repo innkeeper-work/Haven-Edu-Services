@@ -10,10 +10,11 @@ import { Buttons } from "../components/styles/stylcomponents";
 
 //Images
 import femi from "../images/femi.jpeg";
-import games5 from "../images/games5.jpg";
-import games6 from "../images/games6.jpg";
+// import games5 from "../images/games5.jpg";
+// import games6 from "../images/games6.jpg";
 import creativesummer from "../images/creativesummer.jpeg";
 import teentech from "../images/teentech.jpeg";
+// import taekwondo from "../images/taekwondo.jpeg";
 // import games6 from "../images/games6.jpg";
 
 export const Testimonials = () => {
@@ -170,7 +171,7 @@ export const LatestEvents = () => {
                     className="btn d-flex justify-content-end"
                     style={{ backgroundColor: "#724598", color: "#fff" }}
                   >
-                    Register Here
+                    <b>Register Here</b>
                   </a>
                 </div>
               </div>
@@ -180,7 +181,7 @@ export const LatestEvents = () => {
           <div className="col-lg-4 col-md-4 col-sm-10">
             {" "}
             <LatestEventsCard className="card mb-5">
-              <img src={teentech} className="card-img-top" alt="..." />
+              <img src={creativesummer} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">Teen Tech 2022</h5>
                 <p className="card-text">
@@ -194,7 +195,7 @@ export const LatestEvents = () => {
                     className="btn d-flex justify-content-end"
                     style={{ backgroundColor: "#724598", color: "#fff" }}
                   >
-                    Register Here
+                    <b>Register Here</b>
                   </a>
                 </div>
               </div>
@@ -203,7 +204,7 @@ export const LatestEvents = () => {
           <div className="col-lg-4 col-md-4 col-sm-10">
             {" "}
             <LatestEventsCard className="card mb-5">
-              <img src={games5} className="card-img-top" alt="..." />
+              <img src={creativesummer} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">Taekwondo Weekend Club</h5>
                 <p className="card-text">
@@ -217,7 +218,7 @@ export const LatestEvents = () => {
                     className="btn d-flex justify-content-end"
                     style={{ backgroundColor: "#724598", color: "#fff" }}
                   >
-                    Register Here
+                    <b>Register Here</b>
                   </a>
                 </div>
               </div>

@@ -9,16 +9,16 @@ import { AboutCard } from "../components/styles/stylcomponents";
 import Footer from "../components/Footer";
 
 //Images
-import coding2 from "../images/coding2.jpg";
+// import coding2 from "../images/coding2.jpg";
 
-import games5 from "../images/games5.jpg";
-import aboutimage from "../images/aboutimage.png";
-import childrencoding from "../images/childrencoding.jpg";
+// import games5 from "../images/games5.jpg";
+// import aboutimage from "../images/aboutimage.png";
+// import childrencoding from "../images/childrencoding.jpg";
 import femi from "../images/femi.jpeg";
 import olamide from "../images/olamide.png";
 import madamewunmi from "../images/madamewunmi.jpg";
 import vision from "../images/vision.png";
-import abouthero from "../images/abouthero.png";
+// import abouthero from "../images/abouthero.png";
 
 const About = () => {
   return (
@@ -131,6 +131,15 @@ const Team = () => {
         <div className="row justify-content-evenly mx-5">
           <h4 className="text-center my-5">Team</h4>
           <div className="col-lg-3 col-md-4 col-sm-10">
+            <div className="card mb-5">
+              <img src={madamewunmi} className="card-img-top p-3" alt="..." />
+              <div className="card-body">
+                <h5 className="card-title">Omowunmi Obidairo</h5>
+                <p className="card-text">Lead Instructor/Co-Founder</p>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-3 col-md-4 col-sm-10">
             {" "}
             <div className="card mb-5">
               <div>
@@ -152,16 +161,6 @@ const Team = () => {
               <div className="card-body">
                 <h5 className="card-title">Olamide Ogunbanjo</h5>
                 <p className="card-text">Lead Language Instructor</p>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-3 col-md-4 col-sm-10">
-            {" "}
-            <div className="card mb-5">
-              <img src={madamewunmi} className="card-img-top p-3" alt="..." />
-              <div className="card-body">
-                <h5 className="card-title">Omowunmi Obidairo</h5>
-                <p className="card-text">Lead Instructor/Co-Founder</p>
               </div>
             </div>
           </div>

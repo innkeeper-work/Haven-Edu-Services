@@ -6,10 +6,24 @@ import "bootstrap/dist/js/bootstrap.bundle";
 import "bootstrap-icons/font/bootstrap-icons.css";
 // import "./index.css";
 import App from "./App";
+// import GlobalStyle from "../src/components/styles";
 import reportWebVitals from "./reportWebVitals";
+import { createGlobalStyle } from "styled-components";
+
+const GlobalStyle = createGlobalStyle`
+  h3, h4, ul li, span{
+   box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+  }
+  .btn,p{
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+`;
 
 ReactDOM.render(
   <BrowserRouter>
+    <GlobalStyle />
     <App />
   </BrowserRouter>,
   document.getElementById("root")
