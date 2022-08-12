@@ -148,7 +148,6 @@ export const TeamSection = styled.div`
     rgba(110, 125, 181, 0.1) 0%,
     rgba(75, 201, 209, 0.15) 100%
   );
-  // height: 12.5rem;
 `;
 export const GamesSection2Bg = styled.div`
   // background: #e7d6f6;
