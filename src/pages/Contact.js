@@ -25,6 +25,7 @@ const ContactHero = () => {
   const [people, setPeople] = useState([]);
   const handleSubmit = (e) => {
     e.preventDefault();
+    console.log(name, email, number, school, message);
     if (name && email && number && school && message) {
       const person = {
         Name: name,
@@ -71,7 +72,7 @@ const ContactHero = () => {
             style={{ backgroundColor: "#ffffff", width: "500px" }}
           >
             <div className="card-body py-5 ">
-              <form>
+              <form onSubmit={handleSubmit}>
                 {/* <div className="container d-flex justify-content-center"> */}
                 <div className="">
                   <div className="mb-3">
@@ -84,8 +85,8 @@ const ContactHero = () => {
                       id="name"
                       name="name"
                       placeholder="Name"
-                      // value={name}
-                      // onChange={(e) => setName(e.target.value)}
+                      value={name}
+                      onChange={(e) => setName(e.target.value)}
                       // aria-describedby="emailHelp"
                     />
                   </div>
@@ -99,8 +100,8 @@ const ContactHero = () => {
                       id="email"
                       name="email"
                       placeholder="Email Address"
-                      // value={email}
-                      // onChange={(e) => setEmail(e.target.value)}
+                      value={email}
+                      onChange={(e) => setEmail(e.target.value)}
                       // aria-describedby="emailHelp"
                     />
                   </div>
@@ -112,8 +113,8 @@ const ContactHero = () => {
                       id="number"
                       name="number"
                       placeholder="Phone Number"
-                      // value={number}
-                      // onChange={(e) => setNumber(e.target.value)}
+                      value={number}
+                      onChange={(e) => setNumber(e.target.value)}
                     />
                   </div>
                   <div className="mb-3">
@@ -124,8 +125,8 @@ const ContactHero = () => {
                       id="school"
                       name="school"
                       placeholder="School/ Organization"
-                      // value={school}
-                      // onChange={(e) => setSchool(e.target.value)}
+                      value={school}
+                      onChange={(e) => setSchool(e.target.value)}
                     />
                   </div>
                   <div className="mb-3">
@@ -136,8 +137,8 @@ const ContactHero = () => {
                       id="message"
                       name="message"
                       placeholder="Message"
-                      // value={message}
-                      // onChange={(e) => setMessage(e.target.value)}
+                      value={message}
+                      onChange={(e) => setMessage(e.target.value)}
                     ></textarea>
                   </div>
                 </div>{" "}
