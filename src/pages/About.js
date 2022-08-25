@@ -18,6 +18,13 @@ import femi from "../images/femi.jpeg";
 import olamide from "../images/olamide.png";
 import madamewunmi from "../images/madamewunmi.jpg";
 import vision from "../images/vision.png";
+import afolayansamuel from "../images/afolayansamuel.jpg";
+import adaramajaomotola from "../images/adaramajaomotola.jpg";
+import omotola from "../images/omotola.png";
+import madamwunmi from "../images/madamwunmi.png";
+import samuel from "../images/samuel.png";
+import sarah from "../images/sarah.png";
+import akinehinsarah from "../images/akinehinsarah.jpeg";
 // import abouthero from "../images/abouthero.png";
 
 const About = () => {
@@ -61,7 +68,7 @@ const About = () => {
 
 const Vision = () => {
   return (
-    <VisionSection className="px-4 container-fluid py-2 ">
+    <VisionSection className="px-4 container-fluid py-5 ">
       <div className="row align-items-center justify-content-center mx-2">
         <div className="col-lg-6 col-md-6 col-sm-12">
           {/* <h3 className="lh-5 herotextblack d-none d-lg-block d-md-none d-sm-none d-xs-none">
@@ -75,7 +82,7 @@ const Vision = () => {
           </p>
           <h4 className="lh-5 ">Mision</h4>
           <p className="d-flex">
-            We would operate a subscription-based web and mobile platforms where
+            We would operate a subscription-based web and mobile platform where
             our designed content can be shared with children via multi-level
             games, quizzes, interactive videos, and early learning assessments
             These platform will supplement and feed into our current B2B model
@@ -128,33 +135,61 @@ const Team = () => {
   return (
     <>
       <TeamSection className="container-fluid px-5">
-        <div className="row justify-content-evenly">
+        <div className="row justify-content-evenly ">
           <h4 className="text-center my-5">Team</h4>
-          <div className="col-lg-3 col-md-4 col-sm-10">
+          <div className="col-lg-4 col-md-4 col-sm-10 px-5">
             <div className="card mb-5">
-              <img src={madamewunmi} className="card-img-top p-3" alt="..." />
+              <img src={madamwunmi} className="card-img-top p-3" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">Omowunmi Obidairo</h5>
                 <p className="card-text">Lead Instructor/Co-Founder</p>
               </div>
             </div>
           </div>
-          <div className="col-lg-3 col-md-4 col-sm-10">
+          <div className="col-lg-4 col-md-4 col-sm-10 px-5">
             {" "}
             <div className="card mb-5">
               <div>
                 {" "}
-                <img src={femi} className="card-img-top p-3" alt="..." />
+                <img src={samuel} className="card-img-top p-3" alt="..." />
               </div>
 
               <div className="card-body">
-                <h5 className="card-title">Omolounnu Oluwafemi</h5>
-                <p className="card-text">Lead Tech Instructor</p>
+                <h5 className="card-title">Afolayan Samuel</h5>
+                <p className="card-text">Content Manager</p>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-4 col-sm-10 px-5">
+            {" "}
+            <div className="card mb-5">
+              <div>
+                {" "}
+                <img src={omotola} className="card-img-top p-3" alt="..." />
+              </div>
+
+              <div className="card-body">
+                <h5 className="card-title">Adaramaja Omotola</h5>
+                <p className="card-text">Chief Operating officer</p>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-4 col-sm-10 px-5">
+            {" "}
+            <div className="card mb-5">
+              <div>
+                {" "}
+                <img src={sarah} className="card-img-top p-3" alt="..." />
+              </div>
+
+              <div className="card-body">
+                <h5 className="card-title">Akinehin Sarah</h5>
+                <p className="card-text">Tech Instructor</p>
               </div>
             </div>
           </div>
 
-          <div className="col-lg-3 col-md-4 col-sm-10">
+          <div className="col-lg-4 col-md-4 col-sm-10 px-5">
             {" "}
             <div className="card mb-5">
               <img src={olamide} className="card-img-top p-3" alt="..." />

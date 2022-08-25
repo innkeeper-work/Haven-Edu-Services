@@ -5,6 +5,7 @@ import { TestimonialCardTwo } from "../components/styles/stylcomponents";
 import { LatestEventsCard } from "../components/styles/stylcomponents";
 import { CardOneBg } from "../components/styles/stylcomponents";
 import { GamesCard } from "../components/styles/stylcomponents";
+import { BlogCardBg } from "../components/styles/stylcomponents";
 
 import { Buttons } from "../components/styles/stylcomponents";
 
@@ -14,7 +15,10 @@ import femi from "../images/femi.jpeg";
 // import games6 from "../images/games6.jpg";
 import creativesummer from "../images/creativesummer.jpeg";
 import teentech from "../images/teentech.jpeg";
-// import taekwondo from "../images/taekwondo.jpeg";
+import taekwondoacademy from "../images/taekwondoacademy.jpeg";
+import afolayansamuel from "../images/afolayansamuel.jpg";
+import adaramajaomotola from "../images/adaramajaomotola.jpg";
+import akinehinsarah from "../images/akinehinsarah.jpeg";
 // import games6 from "../images/games6.jpg";
 
 export const Testimonials = () => {
@@ -24,7 +28,7 @@ export const Testimonials = () => {
         <TestimonialCont className="row bg-light my-5 justify-content-center mx-3">
           <h4 className="text-center my-4">Testimonials</h4>
           <div className="col-lg-5 col-md-6 col-12 mb-3">
-            <TestimonialCardOne className="">
+            <TestimonialCardOne className="pt-3 px-3">
               <div className="card-body">
                 <p className="card-text">
                   This is a longer card with supporting text below as a natural
@@ -57,7 +61,7 @@ export const Testimonials = () => {
             </TestimonialCardOne>
           </div>
           <div className="col-lg-5 col-md-6 col-12">
-            <TestimonialCardTwo className="">
+            <TestimonialCardTwo className="pt-3 px-3">
               <div className="card-body">
                 <p className="card-text">
                   This is a longer card with supporting text below as a natural
@@ -98,14 +102,22 @@ export const Testimonials = () => {
 export const BlogCards = (props) => {
   const { img, title, description, link } = props;
   return (
-    <div className="mb-3 border">
+    <BlogCardBg className="mb-3 my-4">
+    <div  >
       <div className="row g-0 align-items-center">
         <div className="col-md-4">
-          <img src={img} className="img-fluid h-100" alt="..." />
+    <img src={img}
+                      alt=""
+                      width="170px"
+                      height="170px"
+                      className="rounded ms-3 border-5"
+                    />
+                  
+          {/* <img src={img} className="img-fluid"  alt="..." /> */}
         </div>
         <div className="col-md-8 ">
-          <div className="card-body ">
-            <h5 className="card-title">{title}</h5>
+          <div className="card-body mx-4 my-4">
+            <h4 className="card-title my-2">{title}</h4>
             <p className="card-text">{description}</p>
             <div className="d-flex justify-content-end">
               <b>
@@ -138,6 +150,7 @@ export const BlogCards = (props) => {
         </div>
       </div>
     </div>
+    </BlogCardBg>
   );
 };
 
@@ -181,7 +194,7 @@ export const LatestEvents = () => {
           <div className="col-lg-4 col-md-4 col-sm-10">
             {" "}
             <LatestEventsCard className="card mb-5">
-              <img src={creativesummer} className="card-img-top" alt="..." />
+              <img src={teentech} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">Teen Tech 2022</h5>
                 <p className="card-text">
@@ -204,7 +217,7 @@ export const LatestEvents = () => {
           <div className="col-lg-4 col-md-4 col-sm-10">
             {" "}
             <LatestEventsCard className="card mb-5">
-              <img src={creativesummer} className="card-img-top" alt="..." />
+              <img src={taekwondoacademy} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">Taekwondo Weekend Club</h5>
                 <p className="card-text">

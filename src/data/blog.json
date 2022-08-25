@@ -2,44 +2,30 @@
   "blogcontent": [
     {
       "id": 1,
-      "img": "../../blog/blog1.png",
-      "title": "Blog Title",
-      "description": "This is a wider card with supporting text below as a lead-in to addtional content. This content is a little bit longer. This is a wider card with supporting text below as a lead-in to additional content.",
+      "img": "../../blog/blogimage1.jpeg",
+      "title": "Ways to engage your Champs this Summer",
+      "description": "Children have a general content and a choice out of three specialized contents (Languages, Art & Technology) to focus on for two batches of three weeks each - all in a fun environment.",
       "link": ""
     },
     {
       "id": 2,
-      "img": "../../blog/blog2.png",
-      "title": "Blog Title",
-      "description": "This is a wider card with supporting text below as a lead-in to addtional content. This content is a little bit longer. This is a wider card with supporting text below as a lead-in to additional content. ",
+      "img": "../../blog/blogimage2.jpg",
+      "title": "Reasons Extracurricular Activities should be Embraced for Children",
+      "description": "Children deserve not only exposure to the curriculum of academic learning but also extracurricular experiences that develop them as whole persons in...",
       "link": ""
     },
     {
       "id": 3,
-      "img": "../../blog/blog3.png",
-      "title": "Blog Title",
-      "description": "This is a wider card with supporting text below as a lead-in to addtional content. This content is a little bit longer.This is a wider card with supporting text below as a lead-in to additional content.",
+      "img": "../../blog/blogimage3.jpg",
+      "title": "Haven Adventure Board Games",
+      "description": "With suitable educative games we subtly teach numeracy and literacy. It amazing to watch kids put sounds together to...",
       "link": ""
     },
     {
       "id": 4,
-      "img": "../../blog/blog4.png",
-      "title": "Blog Title",
-      "description": "This is a wider card with supporting text below as a lead-in to addtional content. This content is a little bit longer.This is a wider card with supporting text below as a lead-in to additional content.",
-      "link": ""
-    },
-    {
-      "id": 5,
-      "img": "../../blog/blog5.png",
-      "title": "Blog Title",
-      "description": "This is a wider card with supporting text below as a lead-in to addtional content. This content is a little bit longer.This is a wider card with supporting text below as a lead-in to additional content.",
-      "link": ""
-    },
-    {
-      "id": 6,
-      "img": "../../blog/blog6.png",
-      "title": "Blog Title",
-      "description": "This is a wider card with supporting text below as a lead-in to addtional content. This content is a little bit longer.This is a wider card with supporting text below as a lead-in to additional content.",
+      "img": "../../blog/blogimage4.png",
+      "title": "How to handle the good news",
+      "description": "Picture your champ(s) - or a child you love! How best can you engage them this summer?",
       "link": ""
     }
   ]

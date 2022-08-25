@@ -168,7 +168,7 @@ const Footer = () => {
               <b>Gallery</b>
             </Link>
           </li>
-          {/* <li class="nav-item">
+          <li class="nav-item">
             <Link
               to="/blog"
               class="nav-link px-2 "
@@ -176,7 +176,7 @@ const Footer = () => {
             >
               <b>Blog</b>
             </Link>
-          </li> */}
+          </li>
           <li class="nav-item">
             <Link
               to="/contact"

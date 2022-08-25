@@ -123,11 +123,11 @@ const HomeSectionOne = () => {
 
 const RequestforBooking = () => {
   return (
-    <SectionTwoCardBg className="text-center mt-2">
+    <SectionTwoCardBg className="text-center mt-2 py-4">
       <div className="card-body d-flex justify-content-center">
         <Container className="bg-light rounded d-flex justify-content-center py-2">
           <p className="card-text mx-3 my-auto">
-            <b>Request for Booking</b> (For Schools only)
+            <b>Request a proposal or meeting</b> (For Schools only)
           </p>
           <a
             href="#"
@@ -179,22 +179,20 @@ const SummerCampSection = () => {
 
           <p className="d-flex">
             Our Summer Camps are exciting and engaging with competent
-            facilitators and instructors. We have two section of Summer
-            activities:
-          </p>
+            facilitators and instructors. We have two ongoing Summer sessions at three different locations.</p>
           <ul>
             <li>Haven Creative Summer</li>
             <li>Haven Teen Tech</li>
-            <li>Taekwondo Weekend Club</li>
           </ul>
           <div className="d-md-flex justify-content-md-start">
-            <button
+            <a href="https://docs.google.com/spreadsheets/d/1WCDYKfmfJETNMu0SWjf6lh3LU3Y_tm204RMycBPXiQU/edit#gid=0"> <button
               type="button"
               className="btn"
               style={{ backgroundColor: "#724598", color: "#ffffff" }}
             >
               <b>View Calendar</b>
-            </button>
+            </button></a>
+           
           </div>
         </div>
       </div>

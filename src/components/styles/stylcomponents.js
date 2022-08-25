@@ -202,6 +202,13 @@ export const GalleryHeroCard = styled.div`
   border-radius: 20px;
   height: 10rem;
 `;
+
+export const BlogCardBg = styled.div`
+  box-shadow: 4px 4px 15px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  background: #fff;
+  border: 3px solid #37a7cf;
+`;
 // export const GalleryButtonBg = styled.div`
 //   background-color: #ddd3e9;
 // `;
