@@ -25,10 +25,13 @@ const BlogSection = () => {
     <BlogBg className="container-fluid py-5 my-5">
       <div className="container ">
         <div className="row justify-content-center ">
-          <h3  style={{ color: "#2B0947" }}>Most Popular Articles</h3>
+          <h3 style={{ color: "#2B0947" }}>Most Popular Articles</h3>
           {blogcontent.blogcontent.map((blog) => {
             return (
-              <div className="col-lg-6 col-md-12 col-sm-10 my-4" key={blog.id}>
+              <div
+                className="col-lg-4 col-md-6 col-sm-10 my-4 d-flex "
+                key={blog.id}
+              >
                 <BlogCards {...blog}>
                   {/* <img src={language} className="card-img-top" alt="..." /> */}
                 </BlogCards>

@@ -102,58 +102,130 @@ export const Testimonials = () => {
 export const BlogCards = (props) => {
   const { img, title, description, link } = props;
   return (
-    <BlogCardBg className="mb-3 my-4">
-    <div  >
-      <div className="row g-0 align-items-center">
-        <div className="col-md-4">
-    <img src={img}
-                      alt=""
-                      width="170px"
-                      height="170px"
-                      className="rounded ms-3 border-5"
-                    />
-                  
-          {/* <img src={img} className="img-fluid"  alt="..." /> */}
+    // <BlogCardBg className="mb-3 my-4">
+    //   <div className="row">
+
+    //  </div>
+    // </BlogCardBg>
+    <>
+      {/* <div className="container">
+        <div className="row justify-content-center px-4"> */}
+      {/* <div>
+            <h4 className="text-center my-4">Latest Events</h4> */}
+      {/* <hr
+              className="w-25"
+              style={{ height: "1.8px", backgroundColor: "#000000" }}
+            ></hr> */}
+      {/* </div> */}
+      {/* <div className="col-lg-4 col-md-4 col-sm-10"> */}{" "}
+      <BlogCardBg className="card mb-5">
+        <img
+          src={img}
+          className="card-img-top "
+          alt="..."
+          style={{ maxHeight: "50%" }}
+        />
+        <div className="card-body">
+          <h5 className="card-title">{title}</h5>
+          <p className="card-text">{description}</p>
+          {/* <div className="d-flex justify-content-end"> */}{" "}
+          {/* <a
+                href="http://bit.ly/havenmartialarts"
+                target="_blank"
+                className="btn d-flex justify-content-end"
+                style={{ backgroundColor: "#724598", color: "#fff" }}
+              >
+                <b>Register Here</b>
+              </a> */}
+          {/* </div> */}
         </div>
-        <div className="col-md-8 ">
-          <div className="card-body mx-4 my-4">
-            <h4 className="card-title my-2">{title}</h4>
-            <p className="card-text">{description}</p>
-            <div className="d-flex justify-content-end">
-              <b>
-                <a
-                  href={link}
-                  className=""
-                  style={{
-                    color: "#724598",
-                  }}
-                >
-                  Read more
-                </a>
-                {/* <a
-                  href={link}
-                  className="btn"
-                  style={{
-                    color: "#724598",
-                    background: "#fff",
-                    borderWidth: "2px",
-                    borderStyle: "solid",
-                    borderColor: "#724598",
-                  }}
-                >
-                  Read more
-                </a> */}
-                {/* E8AA00 */}
-              </b>
-            </div>
-          </div>
+      </BlogCardBg>
+      {/* </div> */}
+      {/* </div>
+      </div> */}
+    </>
+  );
+};
+// export const BlogCards = (props) => {
+//   const { img, title, description, link } = props;
+//   return (
+//     <BlogCardBg className="mb-3 my-4">
+//       <div>
+//         <div className="row g-0 align-items-center">
+//           <div className="col-md-4">
+//             <img src={creativesummer} className="card-img-top " alt="..." />
+//             {/* <img src={img}
+//                       alt=""
+//                       // width="170px"
+//                       // height="170px"
+//                       className="rounded ms-3 border-5"
+//                     /> */}
+
+//             {/* <img src={img} className="img-fluid"  alt="..." /> */}
+//           </div>
+//           <div className="col-md-8 ">
+//             <div className="card-body mx-4 my-4">
+//               <h4 className="card-title my-2">{title}</h4>
+//               <p className="card-text">{description}</p>
+//               <div className="d-flex justify-content-end">
+//                 <b>
+//                   <a
+//                     href={link}
+//                     className=""
+//                     style={{
+//                       color: "#724598",
+//                     }}
+//                   >
+//                     Read more
+//                   </a>
+//                   {/* <a
+//                   href={link}
+//                   className="btn"
+//                   style={{
+//                     color: "#724598",
+//                     background: "#fff",
+//                     borderWidth: "2px",
+//                     borderStyle: "solid",
+//                     borderColor: "#724598",
+//                   }}
+//                 >
+//                   Read more
+//                 </a> */}
+//                   {/* E8AA00 */}
+//                 </b>
+//               </div>
+//             </div>
+//           </div>
+//         </div>
+//       </div>
+//     </BlogCardBg>
+//   );
+// };
+export const ReadMoreBlogCard = (props) => {
+  const { title, img, description, link } = props;
+  return (
+    <div className="container-fluid ">
+      <div className="row justify-content-center mt-4">
+        <div className="col-lg-12 col-md-8 col-sm-12">
+          <h3
+            className="lh-5 herotextblack d-none d-lg-block d-md-none d-sm-none d-xs-none text-center"
+            style={{ color: "#2B0947" }}
+          >
+            {title}
+          </h3>
+          <h4
+            className="lh-5 d-xs-block d-sm-block d-md-block d-lg-none text-center"
+            style={{ color: "#2B0947" }}
+          >
+            {title}
+          </h4>
+          <img src={img} className="card-img-top my-5" alt="..." />
+          <p className="d-flex text-center ">{description}</p>
         </div>
       </div>
     </div>
-    </BlogCardBg>
   );
 };
-
 export const LatestEvents = () => {
   return (
     <>
