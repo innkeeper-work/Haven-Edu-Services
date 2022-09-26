@@ -1,0 +1,26 @@
+{
+    "readmoreblogcontentone": [
+      {
+        "id": 1,
+        "title": "Reasons Extracurricular Activities should be Embraced for Children",
+        "img": "../../blog/blogimage1.jpeg",
+        "description": "Children have a general content and a choice out of three specialized contents (Languages, Art & Technology) to focus on for two batches of three weeks each - all in a fun environment."
+      }
+    ],
+    "readmoreblogcontenttwo": [
+      {
+        "id": 1,
+        "title": "Haven Adventure Board Games",
+        "img": "../../blog/blogimage1.jpeg",
+        "description": "Children have a general content and a choice out of three specialized contents (Languages, Art & Technology) to focus on for two batches of three weeks each - all in a fun environment."
+      }
+    ],
+    "readmoreblogcontentthree": [
+      {
+        "id": 1,
+        "title": "How to handle the good news",
+        "img": "../../blog/blogimage1.jpeg",
+        "description": "Children have a general content and a choice out of three specialized contents (Languages, Art & Technology) to focus on for two batches of three weeks each - all in a fun environment."
+      }
+    ]
+  }

@@ -82,6 +82,17 @@ export const NavbarSection = () => {
                 </Navitemmobile>
               </Link>
             </li>
+            <li className="nav-item mx-3">
+              <Link
+                to="/blog"
+                style={{ color: "#000000" }}
+                className="nav-link"
+              >
+                <Navitemmobile>
+                  <b>Blog</b>
+                </Navitemmobile>
+              </Link>
+            </li>
 
             <li className="nav-item mx-3">
               <Link
