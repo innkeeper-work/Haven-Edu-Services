@@ -34,6 +34,7 @@ const BlogSection = () => {
               >
                 <BlogCards {...blog}>
                   {/* <img src={language} className="card-img-top" alt="..." /> */}
+                  <h3>Hiiiiiiiiiiiiiiiiii</h3>
                 </BlogCards>
               </div>
             );
