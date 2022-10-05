@@ -15,9 +15,8 @@ import { InstagramIcon } from "../components/Icons";
 import { LinkedInIcon } from "../components/Icons";
 //Images
 import kid1 from "../images/kid1.png";
-import aboutheroimage from "../images/aboutheroimage.png";
 import aboutheroimg from "../images/aboutheroimg.png";
-import aboutheroimgg from "../images/aboutheroimgg.png";
+import aboutheroimage from "../images/aboutheroimage.png";
 import homeheroimage from "../images/homeheroimage.png";
 import blogheroimage from "../images/blogheroimage.png";
 
@@ -158,13 +157,15 @@ export const HeroSection = () => {
             learning to future Leaders
           </p>
           <div className="d-md-flex justify-content-md-start ">
-            <a href="http://bit.ly/havenpartnersinfo"><button
-              type="button"
-              className="btn "
-              style={{ backgroundColor: "#724598", color: "#ffffff" }}
-            >
-              <b>Partner with us</b>
-            </button></a>
+            <a href="http://bit.ly/havenpartnersinfo">
+              <button
+                type="button"
+                className="btn "
+                style={{ backgroundColor: "#724598", color: "#ffffff" }}
+              >
+                <b>Partner with us</b>
+              </button>
+            </a>
           </div>
         </div>
         <div className="col-lg-5 col-md-5 col-sm-10">
@@ -224,7 +225,7 @@ export const HeroSection = () => {
 export const AboutHeroSection = () => {
   return (
     <>
-    <AboutHeroBg className="container-fluid ">
+      <AboutHeroBg className="container-fluid ">
         <div className="row justify-content-center">
           <div className="col-lg-8 col-md-12 col-sm-12 py-5">
             <h3
@@ -240,52 +241,54 @@ export const AboutHeroSection = () => {
               Who We Are
             </h4>
             <p className="d-flex text-center">
-            Haven Edu-Services is an extra-curricular childhood educational
-           organisation focused on providing training contents related to
-           Multi-languages, Technology and Arts for children (ages 4-12) and
-           Teenagers (ages 13-16)
+              Haven Edu-Services is an extra-curricular childhood educational
+              organisation focused on providing training contents related to
+              Multi-languages, Technology and Arts for children (ages 4-12) and
+              Teenagers (ages 13-16)
             </p>
           </div>
-        </div> <div className="col-lg-12 col-md-12 col-sm-12">
-      <img
-      src={aboutheroimgg}
-      className="d-block mx-lg-auto img-fluid"
-      alt=""
-      loading=""
-    />
-  </div>
+        </div>{" "}
+        <div className="col-lg-12 col-md-12 col-sm-12">
+          <img
+            src={aboutheroimage}
+            className="d-block mx-lg-auto img-fluid"
+            alt=""
+            loading=""
+          />
+        </div>
       </AboutHeroBg>
-     
-  </>
-  )}
-      
-    // <AboutHeroBg className="px-4 container-fluid py-5">
-    //   <div className="row align-items-center justify-content-center ">
-    //     <div className="col-lg-5 col-md-7 col-sm-12 pb-3 ">
-    //       <h3 className="lh-5 herotextblack d-none d-lg-block d-md-none d-sm-none d-xs-none">
-    //         Who We Are
-    //       </h3>
-    //       <h4 className="lh-5 d-xs-block d-sm-block d-md-block d-lg-none">
-    //         Who We Are
-    //       </h4>
-    //       <p className="d-flex">
-    //         Haven Edu-Services is an extra-curricular childhood educational
-    //         organisation focused on providing training contents related to
-    //         Multi-languages, Technology and Arts for children (ages 4-12) and
-    //         Teenagers (ages 13-16)
-    //       </p>
-    //     </div>
-    //     <div className="col-lg-5 col-md-5 col-sm-10">
-    //       <img
-    //         src={aboutheroimage}
-    //         className="d-block mx-lg-auto img-fluid"
-    //         alt=""
-    //         loading=""
-    //       />
-    //     </div>
-    //   </div>
+    </>
+  );
+};
 
-      {/* <div className="row align-items-center justify-content-center mx-4">
+// <AboutHeroBg className="px-4 container-fluid py-5">
+//   <div className="row align-items-center justify-content-center ">
+//     <div className="col-lg-5 col-md-7 col-sm-12 pb-3 ">
+//       <h3 className="lh-5 herotextblack d-none d-lg-block d-md-none d-sm-none d-xs-none">
+//         Who We Are
+//       </h3>
+//       <h4 className="lh-5 d-xs-block d-sm-block d-md-block d-lg-none">
+//         Who We Are
+//       </h4>
+//       <p className="d-flex">
+//         Haven Edu-Services is an extra-curricular childhood educational
+//         organisation focused on providing training contents related to
+//         Multi-languages, Technology and Arts for children (ages 4-12) and
+//         Teenagers (ages 13-16)
+//       </p>
+//     </div>
+//     <div className="col-lg-5 col-md-5 col-sm-10">
+//       <img
+//         src={aboutheroimage}
+//         className="d-block mx-lg-auto img-fluid"
+//         alt=""
+//         loading=""
+//       />
+//     </div>
+//   </div>
+
+{
+  /* <div className="row align-items-center justify-content-center mx-4">
         <div className="col-lg-5 col-md-7 col-sm-12 py-5">
           <h3
             className="lh-5 herotextblack d-none d-lg-block d-md-none d-sm-none d-xs-none"
@@ -315,8 +318,9 @@ export const AboutHeroSection = () => {
             loading=""
           />
         </div>
-      </div> */}
-    // </AboutHeroBg>
+      </div> */
+}
+// </AboutHeroBg>
 //   );
 // };
 export const GalleryHeroSection = () => {
@@ -356,15 +360,10 @@ export const BlogHeroSection = () => {
               Ways to engage your Champs this summer
             </h4>
             <p className="d-flex text-center mx-2">
-            A great thing to do this summer is
-start a vegetable garden by saving
-your own seeds from fruits and
-vegetables.
-It’s very easy, lots of fun, and you still
-get to eat the vegetables so you don’t
-lose any money.
-You may start with cucumber and
-tomato
+              A great thing to do this summer is start a vegetable garden by
+              saving your own seeds from fruits and vegetables. It’s very easy,
+              lots of fun, and you still get to eat the vegetables so you don’t
+              lose any money. You may start with cucumber and tomato
             </p>
           </div>
         </div>
@@ -373,7 +372,7 @@ tomato
         <div className="row align-items-center justify-content-between mt-2 mx-2">
           <div className="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-center">
             <img
-              src={aboutheroimage}
+              src={blogheroimage}
               className="d-block mx-lg-auto img-fluid"
               alt=""
               loading=""
@@ -393,44 +392,27 @@ tomato
               Attend a Summer Camp
             </h4>
             <p className="d-flex ">
-            Summer Camps draw children
-together and help build team spirit.
-Kids not only make new friends but
-also learn to cooperate and respect
-the views of others. They imbibe the
-value of sincere communication and
-learn to resolve disagreements.
-The Kids enjoys fun, safe
-educational/recreational programs,
-outdoor experiences and group
-activities.
+              Summer Camps draw children together and help build team spirit.
+              Kids not only make new friends but also learn to cooperate and
+              respect the views of others. They imbibe the value of sincere
+              communication and learn to resolve disagreements. The Kids enjoys
+              fun, safe educational/recreational programs, outdoor experiences
+              and group activities.
             </p>
-            <h5
-              className="lh-5 "
-              style={{ color: "#2B0947" }}
-            >
+            <h5 className="lh-5 " style={{ color: "#2B0947" }}>
               Learn self-defence
             </h5>
             <p className="d-flex">
-            One of the greatest gifts you can ever
-give your children is the confidence,
-discipline, and fortitude to
-accomplish their own life goals.
-Committing to Martial Arts classes is
-one of these gifts.
+              One of the greatest gifts you can ever give your children is the
+              confidence, discipline, and fortitude to accomplish their own life
+              goals. Committing to Martial Arts classes is one of these gifts.
             </p>
-            <h5
-              className="lh-5"
-              style={{ color: "#2B0947" }}
-            >
+            <h5 className="lh-5" style={{ color: "#2B0947" }}>
               Learn a new language
             </h5>
             <p className="d-flex">
-            Learning a new language promotes
-open-mindedness and introduces
-your kids to different people,
-cultures, and ways of life.
-
+              Learning a new language promotes open-mindedness and introduces
+              your kids to different people, cultures, and ways of life.
             </p>
             {/* <div className="d-md-flex justify-content-md-start">
             <button

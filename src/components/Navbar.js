@@ -13,6 +13,7 @@ import { NavUL } from "../components/styles/stylcomponents";
 
 // Images
 import haven120 from "../images/haven120.png";
+import haventwo from "../images/haventwo.png";
 
 export const NavbarSection = () => {
   return (
@@ -20,9 +21,10 @@ export const NavbarSection = () => {
       <div className="container">
         <a className="navbar-brand" href="/">
           <img
-            src={haven120}
+            src={haventwo}
             alt=""
             className="d-inline-block align-text-top"
+            style={{ maxWidth: "20%", maxHeight: "20%" }}
           />
         </a>
         {/* <Link to="/" className="navbar-brand ms-2 ">

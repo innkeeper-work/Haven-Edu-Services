@@ -212,34 +212,58 @@ const Footer = () => {
                 <b>Haven-Edu Services</b>
               </Link>
             </span>
+            {/* <span className="ms-3 mb-3 mb-md-0 text-muted">
+              <a href="" className="" style={{ color: "#724598" }}>
+                <b>Diamond Estate, Magodo</b>
+              </a>
+            </span> */}
           </div>
-
-          <ul className="nav col-md-6 col-sm-6 justify-content-end list-unstyled d-flex">
-            <li className="ms-4">
-              <a
-                className=""
-                href="https://m.facebook.com/haveneduservices/"
-                style={{ color: "#2D25E1" }}
-              >
-                <FacebookIcon />
-              </a>
-            </li>
-            <li className="ms-4">
-              <a
-                className=""
-                href="https://instagram.com/haveneduservices?igshid=1fyt565z18d4u"
-                style={{ color: "#E1116C" }}
-              >
-                <InstagramIcon />
-              </a>
-            </li>
-            <li className="ms-4">
-              <a className="" href="#" style={{ color: "#37A7CF" }}>
-                <LinkedInIcon />
-              </a>
-            </li>
-          </ul>
+          <div className="col-md-6 col-sm-6">
+            {" "}
+            <ul className="nav  justify-content-end list-unstyled d-flex">
+              <li className="ms-4">
+                <a
+                  className=""
+                  href="tel:2348098438885"
+                  style={{
+                    color: "#2D25E1",
+                    textDecoration: "none",
+                    color: "#000",
+                  }}
+                >
+                  0809 843 8885
+                </a>
+              </li>
+              <li className="ms-4">
+                <a
+                  className=""
+                  href="https://m.facebook.com/haveneduservices/"
+                  style={{ color: "#2D25E1" }}
+                >
+                  <FacebookIcon />
+                </a>
+              </li>
+              <li className="ms-4">
+                <a
+                  className=""
+                  href="https://instagram.com/haveneduservices?igshid=1fyt565z18d4u"
+                  style={{ color: "#E1116C" }}
+                >
+                  <InstagramIcon />
+                </a>
+              </li>
+              <li className="ms-4">
+                <a className="" href="#" style={{ color: "#37A7CF" }}>
+                  <LinkedInIcon />
+                </a>
+              </li>
+            </ul>
+          </div>
         </footer>
+        <b>
+          {" "}
+          <p className="text-center">Diamond Estate, Magodo</p>
+        </b>
       </div>
     </>
   );
