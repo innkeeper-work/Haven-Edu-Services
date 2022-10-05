@@ -230,7 +230,7 @@ export const LatestEvents = () => {
   return (
     <>
       <div className="container">
-        <div className="row justify-content-center px-4">
+        <div className="row justify-content-center px-4 pt-5">
           <div>
             <h4 className="text-center my-4">Latest Events</h4>
             {/* <hr

@@ -43,7 +43,7 @@ const Home = () => {
       {/* <PlayGames /> */}
       <SummerCampSection />
       <Statistics />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <LatestEvents />
       <Footer />
     </>
@@ -179,20 +179,24 @@ const SummerCampSection = () => {
 
           <p className="d-flex">
             Our Summer Camps are exciting and engaging with competent
-            facilitators and instructors. We have two ongoing Summer sessions at three different locations.</p>
+            facilitators and instructors. We have two ongoing Summer sessions at
+            three different locations.
+          </p>
           <ul>
             <li>Haven Creative Summer</li>
             <li>Haven Teen Tech</li>
           </ul>
           <div className="d-md-flex justify-content-md-start">
-            <a href="https://docs.google.com/spreadsheets/d/1WCDYKfmfJETNMu0SWjf6lh3LU3Y_tm204RMycBPXiQU/edit#gid=0"> <button
-              type="button"
-              className="btn"
-              style={{ backgroundColor: "#724598", color: "#ffffff" }}
-            >
-              <b>View Calendar</b>
-            </button></a>
-           
+            <a href="https://docs.google.com/spreadsheets/d/1WCDYKfmfJETNMu0SWjf6lh3LU3Y_tm204RMycBPXiQU/edit#gid=0">
+              {" "}
+              <button
+                type="button"
+                className="btn"
+                style={{ backgroundColor: "#724598", color: "#ffffff" }}
+              >
+                <b>View Calendar</b>
+              </button>
+            </a>
           </div>
         </div>
       </div>
@@ -251,7 +255,7 @@ const SummerCampSection = () => {
 
 const Statistics = () => {
   return (
-    <StatSection className="card-group px-5 py-4 justify-content-center">
+    <StatSection className="card-group px-5 py-5 justify-content-center">
       <div className="col">
         <div
           className="card-body text-center
