@@ -24,7 +24,7 @@ export const NavbarSection = () => {
             src={haventwo}
             alt=""
             className="d-inline-block align-text-top"
-            style={{ maxWidth: "20%", maxHeight: "20%" }}
+            style={{ maxWidth: "7rem", maxHeight: "7rem" }}
           />
         </a>
         {/* <Link to="/" className="navbar-brand ms-2 ">

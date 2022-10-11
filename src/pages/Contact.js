@@ -25,7 +25,7 @@ const ContactHero = () => {
   const [people, setPeople] = useState([]);
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(name, email, number, school, message);
+    // console.log(name, email, number, school, message);
     if (name && email && number && school && message) {
       const person = {
         Name: name,
@@ -34,14 +34,14 @@ const ContactHero = () => {
         School: school,
         Message: message,
       };
-      axios
-        .post(
-          "https://sheet.best/api/sheets/cf4843e3-0850-4788-b45f-038da9a5bd61",
-          person
-        )
-        .then((response) => {
-          console.log(response);
-        });
+      // axios
+      //   .post(
+      //     "https://sheet.best/api/sheets/cf4843e3-0850-4788-b45f-038da9a5bd61",
+      //     person
+      //   )
+      //   .then((response) => {
+      //     console.log(response);
+      //   });
       setPeople((people) => {
         return [...people, person];
       });
@@ -71,7 +71,7 @@ const ContactHero = () => {
             className="col-lg-8 my-5"
             style={{ backgroundColor: "#ffffff", width: "500px" }}
           >
-            <div className="card-body py-5 ">
+            <div className="card-body py-5 mx-4">
               <form onSubmit={handleSubmit}>
                 {/* <div className="container d-flex justify-content-center"> */}
                 <div className="">

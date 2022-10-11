@@ -2,27 +2,27 @@
   "languagegallery": [
     {
       "id": 1,
-      "img": "../../images/craft1.jpg"
+      "img": "../../images/french1.jpg"
     },
     {
       "id": 2,
-      "img": "../../images/craft2.jpg"
+      "img": "../../images/french2.jpg"
     },
     {
       "id": 3,
-      "img": "../../images/craft3.jpg"
+      "img": "../../images/french3.jpg"
     },
     {
       "id": 4,
-      "img": "../../images/craft4.jpg"
+      "img": "../../images/french4.jpg"
     },
     {
       "id": 5,
-      "img": "../../images/craft5.jpg"
+      "img": "../../images/french5.jpg"
     },
     {
       "id": 6,
-      "img": "../../images/craft6.jpg"
+      "img": "../../images/french6.jpg"
     }
   ]
 }

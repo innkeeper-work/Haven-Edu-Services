@@ -110,7 +110,7 @@ const GalleryImages = () => {
           // style={{ backgroundColor: "#724598", color: "#ffffff" }}
           onClick={() => setActive("Secondcard")}
         >
-          Craft
+          Language
         </Buttons>
         <Buttons
           className="btn ms-4 mt-3"
